@@ -1,0 +1,17 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/Test.uss?fileID=7433441132597879392&amp;guid=f462e8bd7089a2b4394e69b49bcbd0ae&amp;type=3#Test" />
+    <engine:VisualElement class="kave-root">
+        <engine:Button text="WOW HOVER!" class="kave-btn">
+            <engine:VisualElement class="line top" />
+            <engine:VisualElement class="line bottom" />
+            <engine:VisualElement class="line left" />
+            <engine:VisualElement class="line right" />
+        </engine:Button>
+        <engine:Button text="WOW HOVER!" class="kave-btn">
+            <engine:VisualElement class="line top" />
+            <engine:VisualElement class="line bottom" />
+            <engine:VisualElement class="line left" />
+            <engine:VisualElement class="line right" />
+        </engine:Button>
+    </engine:VisualElement>
+</engine:UXML>
