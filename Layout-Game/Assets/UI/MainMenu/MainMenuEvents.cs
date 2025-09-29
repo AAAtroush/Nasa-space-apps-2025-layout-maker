@@ -23,6 +23,7 @@ public class MainMenuEvents : MonoBehaviour
     public Toggle FullScreenToggle;
 
     // Panels
+    public GameObject catalougePanel;
     public VisualElement settingsPanel;
     public VisualElement mainMenuPanel;
     public VisualElement creditPanel;
@@ -128,6 +129,8 @@ public class MainMenuEvents : MonoBehaviour
 
         if (creditsCanvas != null)
             creditsCanvas.localPosition = creditsStartPos;
+        catalougePanel.SetActive(false);
+
     }
 
     private void OnDisable()
@@ -159,6 +162,7 @@ public class MainMenuEvents : MonoBehaviour
         settingsPanel.style.display = DisplayStyle.None;
         mainMenuPanel.style.display = DisplayStyle.None;
         menuPanel.style.display = DisplayStyle.Flex;
+        catalougePanel.SetActive(true);
     }
     private void OnCreditsClick(ClickEvent evt)
     {
@@ -166,7 +170,7 @@ public class MainMenuEvents : MonoBehaviour
         settingsPanel.style.display = DisplayStyle.None;
         mainMenuPanel.style.display = DisplayStyle.None;
         menuPanel.style.display = DisplayStyle.None;
-
+        
         if (mainCamera != null)
         {
             StopAllCoroutines();
@@ -198,6 +202,7 @@ public class MainMenuEvents : MonoBehaviour
         creditPanel.style.display = DisplayStyle.None;
         mainMenuPanel.style.display = DisplayStyle.Flex;
         menuPanel.style.display = DisplayStyle.None;
+        catalougePanel.SetActive(false);
 
 
         if (mainCamera != null)
