@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Power
+  - Comms
+  - Thermal
+  - Storage
+  - Water-Air
+  - Waste
+  - Medical
+  - Control
+  - Kitchen
+  - Living
   layers:
   - Default
   - TransparentFX
@@ -13,7 +23,7 @@ TagManager:
   - UI
   - IgnoreMainCam
   - IgnoreCam
-  - 
+  - Rooms
   - 
   - 
   - 

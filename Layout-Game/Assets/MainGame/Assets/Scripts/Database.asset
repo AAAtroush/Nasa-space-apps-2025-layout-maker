@@ -85,7 +85,167 @@ MonoBehaviour:
     <ID>k__BackingField: 17
     <Size>k__BackingField: {x: 20, y: 20}
     <Prefab>k__BackingField: {fileID: 817504054920382470, guid: 9e016c810f51b2b439e17eb2c4a57925, type: 3}
-  - <Name>k__BackingField: SomeElement
+  - <Name>k__BackingField: DataHub
     <ID>k__BackingField: 18
-    <Size>k__BackingField: {x: 3, y: 6}
-    <Prefab>k__BackingField: {fileID: 7068422480946984027, guid: 66015f9678e20344596ac79e1f1b3bdf, type: 3}
+    <Size>k__BackingField: {x: 3, y: 3}
+    <Prefab>k__BackingField: {fileID: 5552459195162990945, guid: c7cdb7a0bd80e384bbd56ce6f2443495, type: 3}
+  - <Name>k__BackingField: High-GainKu-bandAntenna
+    <ID>k__BackingField: 19
+    <Size>k__BackingField: {x: 5, y: 5}
+    <Prefab>k__BackingField: {fileID: 8727398265022985283, guid: f174ccc2ac15ca144ae2002c093777e6, type: 3}
+  - <Name>k__BackingField: Ku-bandAntenna
+    <ID>k__BackingField: 20
+    <Size>k__BackingField: {x: 3, y: 1}
+    <Prefab>k__BackingField: {fileID: 6794952832789658925, guid: 04a2a65a4587c4548b3583be3cabac26, type: 3}
+  - <Name>k__BackingField: S-bandAntenna
+    <ID>k__BackingField: 21
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 5867839506665278137, guid: 62ca32288b09dd0479b5117037616701, type: 3}
+  - <Name>k__BackingField: UHFAntenna
+    <ID>k__BackingField: 22
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 5821454741773134363, guid: a1dd3544b91cabb4b8e46bf237c49b6a, type: 3}
+  - <Name>k__BackingField: AICore
+    <ID>k__BackingField: 23
+    <Size>k__BackingField: {x: 6, y: 2}
+    <Prefab>k__BackingField: {fileID: 3696235961748581023, guid: c1206726310e02d439c785cf984698cc, type: 3}
+  - <Name>k__BackingField: CommandWorkstation
+    <ID>k__BackingField: 24
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 590267117306607385, guid: ee42e254a18749f47821c2a6f203a2bb, type: 3}
+  - <Name>k__BackingField: NavigationSystem
+    <ID>k__BackingField: 25
+    <Size>k__BackingField: {x: 6, y: 6}
+    <Prefab>k__BackingField: {fileID: 6775453667529246730, guid: e4ea1050b13188544939d0e38dd20dab, type: 3}
+  - <Name>k__BackingField: EspressoMachine
+    <ID>k__BackingField: 26
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 6347100207598821444, guid: c4e45c070aaee874782c7df1e9952090, type: 3}
+  - <Name>k__BackingField: FoodRehydrationStation
+    <ID>k__BackingField: 27
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 3512553475649194370, guid: 50c6063c72ba2c640998fa921604b74b, type: 3}
+  - <Name>k__BackingField: Freeze-DriedFoodPackets
+    <ID>k__BackingField: 28
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 501813289497002611, guid: 6084c6e882d151f43b595b2eb7dd85e9, type: 3}
+  - <Name>k__BackingField: Fridge
+    <ID>k__BackingField: 29
+    <Size>k__BackingField: {x: 6, y: 3}
+    <Prefab>k__BackingField: {fileID: 855399873833502198, guid: 268f2e795424bab448859db82acf8014, type: 3}
+  - <Name>k__BackingField: HydroponicsFarm
+    <ID>k__BackingField: 30
+    <Size>k__BackingField: {x: 6, y: 6}
+    <Prefab>k__BackingField: {fileID: 7098605408328506058, guid: 4da1b9ba6c9efa5459f2c9333c272ea0, type: 3}
+  - <Name>k__BackingField: ThermostabilizedFood
+    <ID>k__BackingField: 31
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 3126536748534002832, guid: 1243f3b0011b6404a9665415af62664f, type: 3}
+  - <Name>k__BackingField: WaterDispenser
+    <ID>k__BackingField: 32
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 1062119223118535888, guid: 73265f934532cef4f8a88c42757cdca0, type: 3}
+  - <Name>k__BackingField: AREDDevice
+    <ID>k__BackingField: 33
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 4389286111651681130, guid: f104b030ca7d8844bb51713eed039e03, type: 3}
+  - <Name>k__BackingField: CEVISCycle
+    <ID>k__BackingField: 34
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 2067298548909239561, guid: b490b622cfd1b9d4e8572c5d6998a6cc, type: 3}
+  - <Name>k__BackingField: COLBERTTreadmill
+    <ID>k__BackingField: 35
+    <Size>k__BackingField: {x: 3, y: 1}
+    <Prefab>k__BackingField: {fileID: 8594056889830716311, guid: 1409385f4388e6f4a871246b135aace4, type: 3}
+  - <Name>k__BackingField: UprightSleepPod
+    <ID>k__BackingField: 36
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 1146727593279323773, guid: 4c3962382c8cde144bf707acb0a5990c, type: 3}
+  - <Name>k__BackingField: AmbulatoryMedicalPack
+    <ID>k__BackingField: 37
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 8571627358117186282, guid: c937d8bea15d39649a744db8fbc79d2b, type: 3}
+  - <Name>k__BackingField: Defibrillator
+    <ID>k__BackingField: 38
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 2811878545078812753, guid: 16cacc2b49db72c4185ae8985d1eb5e7, type: 3}
+  - <Name>k__BackingField: MedicalSoftGoods
+    <ID>k__BackingField: 39
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 6055131324117336612, guid: b091ee0c7464a3c49882fccc5605650b, type: 3}
+  - <Name>k__BackingField: OrcheoLiteTEUltrasoundScanner
+    <ID>k__BackingField: 40
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 3846000546124095034, guid: f165a9839273e3c49b35d0b6dc51c5d7, type: 3}
+  - <Name>k__BackingField: UltrasoundSystem
+    <ID>k__BackingField: 41
+    <Size>k__BackingField: {x: 2, y: 2}
+    <Prefab>k__BackingField: {fileID: 6925293376832703775, guid: 42caacaa5d42b5744bb19d0e1b3fc5ba, type: 3}
+  - <Name>k__BackingField: BatteryBank
+    <ID>k__BackingField: 42
+    <Size>k__BackingField: {x: 6, y: 3}
+    <Prefab>k__BackingField: {fileID: 119751781579457932, guid: 734e2d4c98892514ba72ce32c50d0fe0, type: 3}
+  - <Name>k__BackingField: FuelCellGenerator
+    <ID>k__BackingField: 43
+    <Size>k__BackingField: {x: 6, y: 2}
+    <Prefab>k__BackingField: {fileID: 8899458030717037986, guid: 73d42914be4746548a84e16f63daf05d, type: 3}
+  - <Name>k__BackingField: FusionReactor
+    <ID>k__BackingField: 44
+    <Size>k__BackingField: {x: 6, y: 6}
+    <Prefab>k__BackingField: {fileID: 2837754013522565892, guid: 5526c14d15d27c74cb96b253ad29defb, type: 3}
+  - <Name>k__BackingField: ReactorCore
+    <ID>k__BackingField: 45
+    <Size>k__BackingField: {x: 6, y: 6}
+    <Prefab>k__BackingField: {fileID: 940738363539071892, guid: 7a6500822dc229b4999adee8852e49d6, type: 3}
+  - <Name>k__BackingField: 3DPrinter
+    <ID>k__BackingField: 46
+    <Size>k__BackingField: {x: 3, y: 3}
+    <Prefab>k__BackingField: {fileID: 4973799192195693812, guid: 591cebab5f8bc7145a4ac0d90ee4eebc, type: 3}
+  - <Name>k__BackingField: FireSuppression
+    <ID>k__BackingField: 47
+    <Size>k__BackingField: {x: 1, y: 1}
+    <Prefab>k__BackingField: {fileID: 4603918725862219396, guid: 9466d0d9b6a045f4593a1c2f6380c49d, type: 3}
+  - <Name>k__BackingField: NASADataServer
+    <ID>k__BackingField: 48
+    <Size>k__BackingField: {x: 6, y: 3}
+    <Prefab>k__BackingField: {fileID: 2545328349489080220, guid: c3a66f297dc02104fa1c0b7302c8b850, type: 3}
+  - <Name>k__BackingField: RadiationShielding
+    <ID>k__BackingField: 49
+    <Size>k__BackingField: {x: 5, y: 5}
+    <Prefab>k__BackingField: {fileID: 129239163477546530, guid: 78684e6575febf447a18a80354cde52b, type: 3}
+  - <Name>k__BackingField: CryoPump
+    <ID>k__BackingField: 50
+    <Size>k__BackingField: {x: 6, y: 2}
+    <Prefab>k__BackingField: {fileID: 3134550751705635144, guid: 179ef238b7ab92d48a4eabca07f3ab62, type: 3}
+  - <Name>k__BackingField: HeatExchanger
+    <ID>k__BackingField: 51
+    <Size>k__BackingField: {x: 6, y: 3}
+    <Prefab>k__BackingField: {fileID: 511293925449055286, guid: d4c0ad8a972d95b458ed0b577cc1c51d, type: 3}
+  - <Name>k__BackingField: RadiatorPanel
+    <ID>k__BackingField: 52
+    <Size>k__BackingField: {x: 8, y: 4}
+    <Prefab>k__BackingField: {fileID: 1665900945720444446, guid: 840fd02ce4e0d254f994182977745958, type: 3}
+  - <Name>k__BackingField: SpaceToilet
+    <ID>k__BackingField: 53
+    <Size>k__BackingField: {x: 4, y: 2}
+    <Prefab>k__BackingField: {fileID: 6253685064085720583, guid: b02a15bca6aeb21479ffcaff59d857ce, type: 3}
+  - <Name>k__BackingField: WasteBioreactor
+    <ID>k__BackingField: 54
+    <Size>k__BackingField: {x: 6, y: 3}
+    <Prefab>k__BackingField: {fileID: 4082080813678497144, guid: a1bd96e4f32083b47bc8edd33f0060bc, type: 3}
+  - <Name>k__BackingField: WasteRecycler
+    <ID>k__BackingField: 55
+    <Size>k__BackingField: {x: 8, y: 4}
+    <Prefab>k__BackingField: {fileID: 6949260131778106987, guid: fd0bcfa499f1bd44e833c8f49e350bd8, type: 3}
+  - <Name>k__BackingField: AdvancedPurifier
+    <ID>k__BackingField: 56
+    <Size>k__BackingField: {x: 6, y: 2}
+    <Prefab>k__BackingField: {fileID: 5441572536005592204, guid: 458a2ef88ec623a479f0ffa96c6ccff2, type: 3}
+  - <Name>k__BackingField: OxygenGenerationSystem
+    <ID>k__BackingField: 57
+    <Size>k__BackingField: {x: 6, y: 6}
+    <Prefab>k__BackingField: {fileID: 8242123238825371854, guid: 29d0f27ca328b574d80b30a9b576e762, type: 3}
+  - <Name>k__BackingField: WaterElectrolyzer
+    <ID>k__BackingField: 58
+    <Size>k__BackingField: {x: 2, y: 1}
+    <Prefab>k__BackingField: {fileID: 2615548071753320643, guid: a20835d43a1e3c3428623d46adffa52a, type: 3}

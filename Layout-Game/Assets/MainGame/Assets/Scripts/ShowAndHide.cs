@@ -18,9 +18,7 @@ public class ShowAndHide : MonoBehaviour
         Vector3 target = isShown ? new Vector3(-659, 0, 0) : Vector3.zero;
 
         LeanTween.moveLocal(gameObject, target, 1f)
-                 .setEaseOutCubic()
-                 .setOnStart(() => Debug.Log($"Tween started → {target}"))
-                 .setOnComplete(() => Debug.Log($"Tween finished → {target}"));
+                 .setEaseOutCubic();
 
         isShown = !isShown;
     }

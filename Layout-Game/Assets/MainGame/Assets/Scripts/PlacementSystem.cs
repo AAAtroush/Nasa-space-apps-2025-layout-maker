@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,100 +5,108 @@ using UnityEngine;
 public class PlacementSystem : MonoBehaviour
 {
     [SerializeField]
-    private GameObject mouseIndicator;
-    [SerializeField]
     private InputManager inputManager;
     [SerializeField]
     private Grid grid;
     [SerializeField]
     private ObjectsDatabaseSO database;
-    private int selectedObjectIndex = -1;
+
     [SerializeField]
     private GameObject gridVisualization;
 
+    [SerializeField]
+    private Vector2Int gridSize = new Vector2Int(60, 30);
 
     private GridData roomData, stationData;
 
-
-    private List<GameObject> placedGameObjects = new();
-
     [SerializeField] private PreviewSystem preview;
+    [SerializeField] private GameManager gameManager;
 
     private Vector3Int lastDetectedPosition = Vector3Int.zero;
+
+    [SerializeField] private ObjectPlacer objectPlacer;
+
+    IBuildingState buildingState;
 
     private void Start()
     {
         StopPlacement();
-        roomData = new();
-        stationData = new();
-
+        roomData = new GridData(gameManager, gridSize);
+        stationData = new GridData(gameManager, gridSize);
     }
+
+    // NEW: Public method to access roomData
+    public GridData GetRoomData()
+    {
+        return roomData;
+    }
+
+    // NEW: Public method to update room type
+    public void SetRoomType(int roomID, string roomType)
+    {
+        roomData.SetRoomType(roomID, roomType);
+    }
+
     public void StartPlacement(int ID)
     {
         StopPlacement();
-        selectedObjectIndex = database.objectsData.FindIndex(data => data.ID == ID);
-        if(selectedObjectIndex < 0)
-        {
-            Debug.LogError($"No ID found {ID}");
-            return;
-        }
         gridVisualization.SetActive(true);
-        preview.StartShowingPlacementPreview(
-            database.objectsData[selectedObjectIndex].Prefab,
-            database.objectsData[selectedObjectIndex].Size);
+        buildingState = new PlacementState(ID,
+                                           grid,
+                                           preview,
+                                           database,
+                                           roomData,
+                                           stationData,
+                                           objectPlacer);
+        inputManager.OnClicked += PlaceStructure;
+        inputManager.OnExit += StopPlacement;
+    }
+
+    // NEW: Start station placement within a specific room
+    public void StartStationPlacement(int stationID, int roomID)
+    {
+        StopPlacement();
+        gridVisualization.SetActive(true);
+        buildingState = new StationPlacementState(stationID, roomID,
+                                           grid,
+                                           preview,
+                                           database,
+                                           roomData,
+                                           stationData,
+                                           objectPlacer);
         inputManager.OnClicked += PlaceStructure;
         inputManager.OnExit += StopPlacement;
     }
 
     private void PlaceStructure()
     {
-        if (inputManager.IsPointerOverUI()) {
+        if (inputManager.IsPointerOverUI())
+        {
             return;
         }
         Vector3 mousePosition = inputManager.GetSelectedMapPosition();
         Vector3Int gridPosition = grid.WorldToCell(mousePosition);
 
-        bool placementValidity = CheckPlacementValidity(gridPosition, selectedObjectIndex);
-        if (placementValidity == false) {
+        buildingState.OnAction(gridPosition);
+    }
+
+    public void StopPlacement()
+    {
+        if (buildingState == null)
+        {
             return;
         }
-
-        GameObject newObject = Instantiate(database.objectsData[selectedObjectIndex].Prefab);
-        newObject.transform.position = grid.CellToWorld(gridPosition);
-
-        placedGameObjects.Add(newObject);
-        GridData selectedData = database.objectsData[selectedObjectIndex].ID <= 17 ? roomData : stationData;
-
-        selectedData.AddObjectAt(gridPosition,
-            database.objectsData[selectedObjectIndex].Size,
-            database.objectsData[selectedObjectIndex].ID,
-            placedGameObjects.Count - 1);
-
-
-        preview.UpdatePosition(grid.CellToWorld(gridPosition), false);
-
-
-    }
-
-    private bool CheckPlacementValidity(Vector3Int gridPosition, int selectedObjectIndex)
-    {
-        GridData selectedData = database.objectsData[selectedObjectIndex].ID <= 17 ? roomData : stationData;
-        return selectedData.CanPlaceObjectAt(gridPosition, database.objectsData[selectedObjectIndex].Size);
-    }
-
-    private void StopPlacement()
-    {
-        selectedObjectIndex = -1;
         gridVisualization.SetActive(false);
-        preview.StopShowingPreview();
+        buildingState.EndState();
         inputManager.OnClicked -= PlaceStructure;
         inputManager.OnExit -= StopPlacement;
         lastDetectedPosition = Vector3Int.zero;
+        buildingState = null;
     }
 
     void Update()
     {
-        if(selectedObjectIndex < 0)
+        if (buildingState == null)
         {
             return;
         }
@@ -108,12 +115,19 @@ public class PlacementSystem : MonoBehaviour
 
         if (gridPosition != lastDetectedPosition)
         {
-            bool placementValidity = CheckPlacementValidity(gridPosition, selectedObjectIndex);
-        
-            mouseIndicator.transform.position = mousePosition;
-            preview.UpdatePosition(grid.CellToWorld(gridPosition), placementValidity);
+            buildingState.UpdateState(gridPosition);
             lastDetectedPosition = gridPosition;
         }
+    }
 
+    // NEW: Get all available rooms for station placement
+    public List<int> GetAvailableRooms()
+    {
+        return roomData.GetAllRoomIDs();
+    }
+
+    public string GetRoomType(int roomID)
+    {
+        return roomData.GetRoomType(roomID);
     }
 }

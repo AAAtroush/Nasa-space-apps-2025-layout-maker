@@ -1,0 +1,245 @@
+room: Communication
+name: UHFAntenna
+size: 2x1
+price: 200
+model link:https://drive.google.com/file/d/1VPUJpF7hf_GE3rEA8ZLCT0IKtclKEyS9/view?usp=drive_link
+
+room: Communication
+name: S-bandAntenna
+size: 2x1
+price: 300
+model link:https://drive.google.com/file/d/1TKrDewWRKESV7YNJYKrQQ7ISyOs0v9rB/view?usp=drive_link
+
+room: Communication
+name: Ku-bandAntenna
+size: 3x1
+price: 400
+model link:https://drive.google.com/file/d/1oaC1setlY2lnvZPsZDuEUBKbo941yp5U/view?usp=drive_link
+
+room: Communication
+name: DataHub (DMS)
+size: 3x3
+price: 600
+model link:https://drive.google.com/file/d/1T9qYA68ZnFhx4IijSYUEOVL-lFb7wjgG/view?usp=drive_link
+
+room: Communication
+name: High-GainKu-bandAntenna
+size: 5x5
+price: 900
+model link:https://drive.google.com/file/d/1pb8FuWOGSpfBU8ZiwH3sm0BntnvVVy76/view?usp=drive_link
+
+room: Control
+name: AICore
+size: 6x2
+price: 1200
+model link:https://drive.google.com/file/d/1329xX1c7ER490ZuzJ0DE0a6UO8W9c8Cp/view?usp=drive_link
+
+room: Control
+name: CommandWorkstation
+size: 2x1
+price: 300
+model link:https://drive.google.com/file/d/1S3mbvUbayuS0swlqkjOVpkurruKM1Eh2/view?usp=drive_link
+
+room: Control
+name: NavigationSystem
+size: 6x6
+price: 1000
+model link:https://drive.google.com/drive/folders/1fNnXHQxVhdByGB-JHlUUJwAQ4-VoYV5H?usp=drive_link
+
+room: Living
+name: AREDDevice
+size: 2x1
+price: 700
+model link:https://drive.google.com/file/d/1mIfWAY-Q3SSZD9o-Iyz1fd4v93fEM42U/view?usp=drive_link
+
+room: Living
+name: CEVISCycle
+size: 2x1
+price: 500
+model link:https://drive.google.com/file/d/1WnHOXKyi2a3vp-nCdYdkvgTERHELaIyk/view?usp=drive_link
+
+room: Living
+name: COLBERTTreadmill
+size: 3x1
+price: 600
+model link:https://drive.google.com/file/d/1qeuCc_kCpKpH4l9njG2ttZZSRdXytBBN/view?usp=drive_link
+
+room: Living
+name: UprightSleepPod
+size: 1x1
+price: 400
+model link:https://drive.google.com/drive/folders/1hOfc3446hnL184HEXhGDxOSjBM9SE56-?usp=drive_link
+
+room: Kitchen
+name: Freeze-DriedFoodPackets
+size: 2x1
+price: 150
+model link:https://drive.google.com/file/d/1fud9yCqdzNe_UHonLdgNtHqoru_9ZOhE/view?usp=drive_link
+
+room: Kitchen
+name: EspressoMachine
+size: 2x1
+price: 300
+model link:https://drive.google.com/file/d/1sNR_12EdeEnMtMYdjrUeBOG-keHTjgoT/view?usp=drive_link
+
+room: Kitchen
+name: ThermostabilizedFood
+size: 2x1
+price: 200
+model link:https://drive.google.com/file/d/1JmfDY33fc9_eIH43Fp2VE6B1943SVg_x/view?usp=drive_link
+
+room: Kitchen
+name: FoodRehydrationStation
+size: 2x1
+price: 250
+model link:https://drive.google.com/file/d/1Rw8mhaGPwmrV25HkQJ0AUmc9yMeZHU5J/view?usp=drive_link
+
+room: Kitchen
+name: Fridge
+size: 6x3
+price: 600
+model link:https://drive.google.com/file/d/1hD19ddR3eiWtT94rqAS8k2sp6QZDdHS0/view?usp=drive_link
+
+room: Kitchen
+name: HydroponicsFarm
+size: 6x6
+price: 1200
+model link:https://drive.google.com/file/d/1iRWZkK5P_F6SBOXxgu9gJASBH0rReHIm/view?usp=drive_link
+
+room: Kitchen
+name: WaterDispenser
+size: 1x1
+price: 150
+model link:https://drive.google.com/file/d/1xkeQf4rUgDAyV4dTkWAeabGSK0X_ZP5I/view?usp=drive_link
+
+room: Medical
+name: MedicalSoftGoods
+size: 2x1
+price: 200
+model link:https://drive.google.com/file/d/1po_Bt3aYf8qYKrie63gGIJoKqUBiiQ0c/view?usp=drive_link
+
+room: Medical
+name: OrcheoLiteTEUltrasoundScanner
+size: 2x2
+price: 600
+model link:https://drive.google.com/file/d/1vsi-1jL9DnvjQe_0MUtVnrDXgPPsS96U/view?usp=drive_link
+
+room: Medical
+name: Defibrillator
+size: 1x1
+price: 150
+model link:https://drive.google.com/file/d/1hWxcub2lrlEOSXSZYjcPzJL6uNyL2e2H/view?usp=drive_link
+
+room: Medical
+name: AmbulatoryMedicalPack
+size: 2x1
+price: 400
+model link:https://drive.google.com/file/d/1G8cuCcodfktJEnDCZjGYw5Lyjsv91UH3/view?usp=drive_link
+
+room: Medical
+name: UltrasoundSystem
+size: 2x2
+price: 700
+model link:https://drive.google.com/file/d/1K0mYc4mVNpQGELSYKutlQTSSj60R2Lpp/view?usp=drive_link
+
+room: Power
+name: BatteryBank
+size: 6x3
+price: 800
+model link:https://drive.google.com/file/d/1bvvyaTWj62LJFinMshjDCVnqaua22gOt/view?usp=drive_link
+
+room: Power
+name: FuelCellGenerator
+size: 6x2
+price: 900
+model link:https://drive.google.com/file/d/13oxJ2wW6usT9il-bgXFUIeB8DT0F-daP/view?usp=drive_link
+
+room: Power
+name: ReactorCore
+size: 6x6
+price: 2000
+model link:https://drive.google.com/file/d/1fzPxbkA1UPOBN0GplnrlA8wbdn1CHNb9/view?usp=drive_link
+
+room: Power
+name: FusionReactor
+size: 6x6
+price: 2500
+model link:https://drive.google.com/file/d/1WtJJbXfk9UDpwty4iqYdugOf_0-f9lry/view?usp=drive_link
+
+room: Thermal
+name: CryoPump
+size: 6x2
+price: 700
+model link:https://drive.google.com/file/d/1h4ECINYayJu1xJC16-pImOMQZbV8n6m6/view?usp=drive_link
+
+room: Thermal
+name: HeatExchanger
+size: 6x3
+price: 600
+model link:https://drive.google.com/file/d/147vWEYlU3F4AuWJcMO9zR0XncFR0aMmh/view?usp=drive_link
+
+room: Thermal
+name: RadiatorPanel
+size: 8x4
+price: 1000
+model link:https://drive.google.com/file/d/1k-ix4kdS8muXgWKYSCqdBI4VYvM3tt_H/view?usp=drive_link
+
+room: Waste
+name: SpaceToilet
+size: 4x2
+price: 500
+model link:https://drive.google.com/file/d/1WDM-oOedo8X58caInf8T1rPp5TMVM8Pe/view?usp=drive_link
+
+room: Waste
+name: WasteRecycler
+size: 8x4
+price: 1000
+model link:https://drive.google.com/file/d/1toVX9fHZwTjItTOSIo5jWlAo9L0EmeRA/view?usp=drive_link
+
+room: Waste
+name: WasteBioreactor
+size: 6x3
+price: 1200
+model link:https://drive.google.com/file/d/1Lz5kS-5-BuOlfdQapznpZKIBjFFRk5Qr/view?usp=drive_link
+
+room: Water/Air
+name: OxygenGenerationSystem
+size: 6x6
+price: 1500
+model link:https://drive.google.com/file/d/1qO3WuKomAsyDsxMUuMgd3YZN0Vg916Fw/view?usp=drive_link
+
+room: Water/Air
+name: WaterElectrolyzer
+size: 2x1
+price: 400
+model link:https://drive.google.com/file/d/1QNRSdwM2nROUaMuw8bko2-mRYLsOCu3J/view?usp=drive_link
+
+room: Water/Air
+name: AdvancedPurifier
+size: 6x2
+price: 700
+model link:https://drive.google.com/file/d/18siWdtoUbbXKOVgOcX20jN04bn4sP_jt/view?usp=drive_link
+
+room: Storage
+name: 3DPrinter
+size: 3x3
+price: 400
+model link:https://drive.google.com/file/d/1De23jiYFWoq2aegxczM-UQPH3-7xKiKm/view?usp=drive_link
+
+room: Storage
+name: NASADataServer
+size: 6x3
+price: 900
+model link:https://drive.google.com/file/d/10Ah0gXQRLfGcMgSpeRdzQJznCzdr9LPa/view?usp=drive_link
+
+room: Storage
+name: RadiationShielding
+size: 5x5
+price: 1500
+model link:https://drive.google.com/file/d/1laHeYICq9EIafy8YYtUW2jOuk91kgJuP/view?usp=drive_link
+
+room: Storage
+name: FireSuppression
+size: 1x1
+price: 250
+model link:https://drive.google.com/file/d/1jKO5mrx3ls21XA5qfoUCIRiTyULJq76W/view?usp=drive_link
