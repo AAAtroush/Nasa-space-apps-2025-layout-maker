@@ -2,37 +2,54 @@ using UnityEngine;
 
 public class ItemInspectManager : MonoBehaviour
 {
-    public Camera inspectCamera;         // drag your special camera here
-    public RenderTexture renderTexture;  // assign a RenderTexture for RawImage
-    public Transform spawnPoint;         // empty child where prefabs will spawn
-
+    [Header("Spawn Settings")]
+    public Transform spawnPoint;
     private GameObject currentInstance;
 
-    // Show the prefab from ItemData
+    [Header("Rotation Settings")]
+    public float rotationSpeed = 1f; // tweak sensitivity
+
+    private Vector3 currentRotation = Vector3.zero;
+
     public void ShowItem(ItemData data)
     {
-        Clear(); // clear any old model
+        Clear();
 
-        if (data.prefab != null)
+        if (data != null && data.prefab != null && spawnPoint != null)
         {
             currentInstance = Instantiate(data.prefab, spawnPoint.position, Quaternion.identity, spawnPoint);
+            currentInstance.transform.localPosition = Vector3.zero;
+            currentInstance.transform.localRotation = Quaternion.identity;
+            currentInstance.transform.localScale = data.overrideScale;
 
-            // adjust camera distance if ItemData has value
-            if (inspectCamera != null)
-            {
-                inspectCamera.targetTexture = renderTexture;
-                inspectCamera.transform.position = spawnPoint.position - inspectCamera.transform.forward * data.cameraDistance;
-            }
+            currentRotation = Vector3.zero;
         }
     }
 
-    // Clear any existing instance
     public void Clear()
     {
         if (currentInstance != null)
         {
             Destroy(currentInstance);
             currentInstance = null;
+        }
+    }
+
+    private void Update()
+    {
+        if (currentInstance == null) return;
+
+        // Rotate only while holding left mouse
+        if (Input.GetMouseButton(0))
+        {
+            float mouseX = Input.GetAxis("Mouse X");
+            float mouseY = Input.GetAxis("Mouse Y");
+
+            // ✅ Properly inverted up/down
+            currentRotation.x += mouseY * rotationSpeed;  // flipped sign here
+            currentRotation.y -= mouseX * rotationSpeed;  // keep left/right normal
+
+            currentInstance.transform.rotation = Quaternion.Euler(currentRotation);
         }
     }
 }

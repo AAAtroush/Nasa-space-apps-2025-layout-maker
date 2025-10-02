@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: communicationSBandAntenna
   m_EditorClassIdentifier: 
-  itemName: test
-  irlName: testlol
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: S-band Antenna
+  irlname: S-band Antenna on ISS
+  attributes: "Attributes:\r\nPower: \u221215\r\nCooling: \u22122\r\nCommsRiskMod:
+    \u22122\r\nData Loss: \u22127%"
+  gameex: 'A stronger option than UHF, balances higher resource drain with better
+    protection against comms issues.
+
+'
   irlex: almfgkamlgfml
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
-  prefab3D: {fileID: 5552459195162990945, guid: c7cdb7a0bd80e384bbd56ce6f2443495, type: 3}
+  prefab: {fileID: 4782894934465940841, guid: 80a69d56b83585d40997a5a1e9a56333, type: 3}
+  cameraDistance: 2
+  overrideScale: {x: 350, y: 350, z: 350}

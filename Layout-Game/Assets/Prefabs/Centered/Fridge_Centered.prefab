@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8497350510670593161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3181185106612836406}
+  m_Layer: 0
+  m_Name: Fridge_Centered
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3181185106612836406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8497350510670593161}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8302576403672241829}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8032281212348607669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3181185106612836406}
+    m_Modifications:
+    - target: {fileID: 855399873833502198, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_Name
+      value: Fridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0157242
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.23509273
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4875597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+--- !u!4 &8302576403672241829 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2035847434855889424, guid: b1da92f9c2167644a9762673baa40b30, type: 3}
+  m_PrefabInstance: {fileID: 8032281212348607669}
+  m_PrefabAsset: {fileID: 0}

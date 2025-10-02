@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2293999378576029974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 664984822668413007}
+  m_Layer: 0
+  m_Name: Defibrillator_Centered
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &664984822668413007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2293999378576029974}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6200165025804644771}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7390565651698339348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 664984822668413007}
+    m_Modifications:
+    - target: {fileID: 2811878545078812753, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_Name
+      value: Defibrillator
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.16261892
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.14295433
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.18490453
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+--- !u!4 &6200165025804644771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3502667394932555703, guid: 7efac7234af1dcc40bdf21f87ac58f13, type: 3}
+  m_PrefabInstance: {fileID: 7390565651698339348}
+  m_PrefabAsset: {fileID: 0}

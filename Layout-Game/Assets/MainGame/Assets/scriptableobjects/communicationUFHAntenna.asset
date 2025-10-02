@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: communicationUFHAntenna
   m_EditorClassIdentifier: 
-  itemName: test
-  irlName: testlol
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: UHF Antenna
+  irlname: UHF Radio System on ISS
+  attributes: "Attributes:\r\nPower: \u221210\r\nCooling: \u22121\r\nCommsRiskMod:
+    \u22122\r\nData Loss: \u22125%\r\n"
+  gameex: Provides basic comms. Cheap, small, reduces risk of losing data but adds
+    a minor power/cooling drain.
   irlex: almfgkamlgfml
-  link: www.discord.com
+  link: https://drive.google.com/drive/folders/1h-oXdaOSfSNc2WiCUsAPTSQUZnE8YujW?usp=drive_link
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
-  prefab3D: {fileID: 5552459195162990945, guid: c7cdb7a0bd80e384bbd56ce6f2443495, type: 3}
+  prefab: {fileID: 7240189091602596899, guid: 9f1b82c0e051bb740889a6a2c485005b, type: 3}
+  cameraDistance: 2
+  overrideScale: {x: 400, y: 400, z: 400}

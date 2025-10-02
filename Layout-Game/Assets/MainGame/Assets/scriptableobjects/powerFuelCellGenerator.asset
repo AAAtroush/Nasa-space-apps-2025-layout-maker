@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: powerFuelCellGenerator
   m_EditorClassIdentifier: 
-  itemName: test
-  irlName: testlol
+  itemname: 
+  irlname: 
   attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
   gameex: apkdfplkldpafkasffakokga
   irlex: almfgkamlgfml
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
-  prefab3D: {fileID: 5552459195162990945, guid: c7cdb7a0bd80e384bbd56ce6f2443495, type: 3}
+  prefab: {fileID: 6119553864337952358, guid: 2cee1d42ae1b9654889cdab6fa327b73, type: 3}
+  cameraDistance: 2
+  overrideScale: {x: 200, y: 200, z: 200}

@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: communicationDataHub
   m_EditorClassIdentifier: 
-  itemname: lol
-  irlname: alol
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: Data Hub
+  irlname: 'Data Hub (DMS) '
+  attributes: "Attributes:\r\nPower: \u221230\r\nCooling: \u221210\r\nStorage: +3\r\nCommsRiskMod:
+    \u22123\r\nSystemRiskMod: \u22122\r\nResearch: +3\r\nSystem Failure: \u221210%\r\nData
+    Loss: \u221240%"
+  gameex: Core system for mission data. Protects against failures, reduces data loss,
+    boosts research but drains heavy power and cooling.
   irlex: almfgkamlgfml
-  link: www.discord.com
+  link: https://drive.google.com/drive/folders/1zBt1tgpTpgdiAaKyhKa2OUm_8rMomrUx?usp=drive_link
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 4814140183114437194, guid: c9b73a9de66dda0439239ee01dee96a0, type: 3}
   cameraDistance: 2
+  overrideScale: {x: 200, y: 200, z: 200}

@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: medicalAmbulatoryMedicalPack
   m_EditorClassIdentifier: 
-  itemName: test
-  irlName: testlol
+  itemname: 
+  irlname: 
   attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
   gameex: apkdfplkldpafkasffakokga
   irlex: almfgkamlgfml
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
-  prefab3D: {fileID: 5552459195162990945, guid: c7cdb7a0bd80e384bbd56ce6f2443495, type: 3}
+  prefab: {fileID: 6932724853979261138, guid: 35a5226ec78a50e41a0f1a0c93f77f94, type: 3}
+  cameraDistance: 2
+  overrideScale: {x: 500, y: 500, z: 500}
