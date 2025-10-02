@@ -635,19 +635,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 12814045}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 12814043}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &12814045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,19 +769,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 20114422}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 20114420}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &20114422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1278,19 +1254,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 32118419}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 32118417}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &32118419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1841,6 +1805,7 @@ GameObject:
   - component: {fileID: 41764543}
   - component: {fileID: 41764545}
   - component: {fileID: 41764546}
+  - component: {fileID: 41764547}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -1974,6 +1939,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &41764547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41764541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 4286cfae5982bdf48a7a7b9c1474a211, type: 2}
+  targetMenu: {fileID: 45883159}
 --- !u!1 &43851027
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,6 +2100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45883157}
   - component: {fileID: 45883158}
+  - component: {fileID: 45883159}
   m_Layer: 5
   m_Name: waterairOxygenGenerationSystem
   m_TagString: Untagged
@@ -2169,6 +2149,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &45883159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45883156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 702821463}
+  irlnameText: {fileID: 290789346}
+  attributesText: {fileID: 1411368682}
+  gameexText: {fileID: 893514121}
+  irlexText: {fileID: 2089320489}
+  itemImage: {fileID: 4355074}
+  linkButton: {fileID: 965839166}
 --- !u!1 &58040609
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,6 +2452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 65966396}
   - component: {fileID: 65966397}
+  - component: {fileID: 65966398}
   m_Layer: 5
   m_Name: controlNavigationSystem
   m_TagString: Untagged
@@ -2501,6 +2501,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &65966398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65966395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 84177159}
+  irlnameText: {fileID: 667704363}
+  attributesText: {fileID: 724749896}
+  gameexText: {fileID: 517113080}
+  irlexText: {fileID: 368505752}
+  itemImage: {fileID: 2003710049}
+  linkButton: {fileID: 839257891}
 --- !u!1 &74619704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,6 +2742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77936489}
   - component: {fileID: 77936490}
+  - component: {fileID: 77936491}
   m_Layer: 5
   m_Name: wasteWasteRecycler
   m_TagString: Untagged
@@ -2771,6 +2791,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &77936491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77936488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 203669337}
+  irlnameText: {fileID: 780280988}
+  attributesText: {fileID: 1527071925}
+  gameexText: {fileID: 1677211225}
+  irlexText: {fileID: 1517227410}
+  itemImage: {fileID: 1619253797}
+  linkButton: {fileID: 1603965887}
 --- !u!1 &78093882
 GameObject:
   m_ObjectHideFlags: 0
@@ -3543,19 +3582,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 92652464}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 92652462}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &92652464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4250,19 +4277,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 108312918}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 108312916}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &108312918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4624,6 +4639,7 @@ GameObject:
   - component: {fileID: 126430646}
   - component: {fileID: 126430648}
   - component: {fileID: 126430649}
+  - component: {fileID: 126430650}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -4757,6 +4773,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &126430650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126430644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 71aebef614a030a4bb98bf47178a6d75, type: 2}
+  targetMenu: {fileID: 1741145646}
 --- !u!1 &127815529
 GameObject:
   m_ObjectHideFlags: 0
@@ -4852,19 +4882,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 127815533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 127815531}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &127815533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5641,6 +5659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 154636927}
   - component: {fileID: 154636928}
+  - component: {fileID: 154636929}
   m_Layer: 5
   m_Name: livingCEVISCycle
   m_TagString: Untagged
@@ -5689,6 +5708,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &154636929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154636926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 756084369}
+  irlnameText: {fileID: 12661168}
+  attributesText: {fileID: 1024103887}
+  gameexText: {fileID: 1230129211}
+  irlexText: {fileID: 786461596}
+  itemImage: {fileID: 374354294}
+  linkButton: {fileID: 521486210}
 --- !u!1 &158705253
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,6 +5989,7 @@ GameObject:
   - component: {fileID: 167161713}
   - component: {fileID: 167161715}
   - component: {fileID: 167161716}
+  - component: {fileID: 167161717}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -6084,6 +6123,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &167161717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167161711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: f02f78468afd95647a34bdfe3cf0d03f, type: 2}
+  targetMenu: {fileID: 77936491}
 --- !u!1 &168651103
 GameObject:
   m_ObjectHideFlags: 0
@@ -7759,6 +7812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198689012}
   - component: {fileID: 198689013}
+  - component: {fileID: 198689014}
   m_Layer: 5
   m_Name: communicationHighGainKuBandAntenna
   m_TagString: Untagged
@@ -7807,6 +7861,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &198689014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198689011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1565121622}
+  irlnameText: {fileID: 678845138}
+  attributesText: {fileID: 643768815}
+  gameexText: {fileID: 761604720}
+  irlexText: {fileID: 1942016325}
+  itemImage: {fileID: 474923930}
+  linkButton: {fileID: 108312917}
 --- !u!1 &203669335
 GameObject:
   m_ObjectHideFlags: 0
@@ -8454,6 +8527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226381151}
   - component: {fileID: 226381152}
+  - component: {fileID: 226381153}
   m_Layer: 5
   m_Name: medicalUltrasoundSystem
   m_TagString: Untagged
@@ -8502,6 +8576,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &226381153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226381150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 41639212}
+  irlnameText: {fileID: 633627211}
+  attributesText: {fileID: 87833469}
+  gameexText: {fileID: 959846987}
+  irlexText: {fileID: 478639082}
+  itemImage: {fileID: 1766137625}
+  linkButton: {fileID: 1863708311}
 --- !u!1 &227367684
 GameObject:
   m_ObjectHideFlags: 0
@@ -8512,6 +8605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227367685}
   - component: {fileID: 227367686}
+  - component: {fileID: 227367687}
   m_Layer: 5
   m_Name: livingCOLBERTTreadmill
   m_TagString: Untagged
@@ -8560,6 +8654,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &227367687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227367684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 625626277}
+  irlnameText: {fileID: 186161226}
+  attributesText: {fileID: 189805630}
+  gameexText: {fileID: 2132030694}
+  irlexText: {fileID: 58040611}
+  itemImage: {fileID: 1045023201}
+  linkButton: {fileID: 1901905257}
 --- !u!1 &230725350
 GameObject:
   m_ObjectHideFlags: 0
@@ -8570,6 +8683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230725351}
   - component: {fileID: 230725352}
+  - component: {fileID: 230725353}
   m_Layer: 5
   m_Name: communicationSBandAntenna
   m_TagString: Untagged
@@ -8618,6 +8732,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &230725353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230725350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 766648173}
+  irlnameText: {fileID: 1202579210}
+  attributesText: {fileID: 775008019}
+  gameexText: {fileID: 1197884107}
+  irlexText: {fileID: 43851029}
+  itemImage: {fileID: 1398810878}
+  linkButton: {fileID: 2078086449}
 --- !u!1 &234167838
 GameObject:
   m_ObjectHideFlags: 0
@@ -8849,19 +8982,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 240673636}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 240673634}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &240673636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8910,6 +9031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 248170693}
   - component: {fileID: 248170694}
+  - component: {fileID: 248170695}
   m_Layer: 5
   m_Name: wasteSpaceToilet
   m_TagString: Untagged
@@ -8958,6 +9080,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &248170695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248170692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 448917723}
+  irlnameText: {fileID: 1382797343}
+  attributesText: {fileID: 530929384}
+  gameexText: {fileID: 174280899}
+  irlexText: {fileID: 1784955075}
+  itemImage: {fileID: 871694109}
+  linkButton: {fileID: 1058225121}
 --- !u!1 &249866470
 GameObject:
   m_ObjectHideFlags: 0
@@ -10522,6 +10663,7 @@ GameObject:
   - component: {fileID: 294850363}
   - component: {fileID: 294850365}
   - component: {fileID: 294850366}
+  - component: {fileID: 294850367}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -10655,6 +10797,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &294850367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294850361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c615f5ef9d4f1da4eb2910d7e433f6e3, type: 2}
+  targetMenu: {fileID: 471597110}
 --- !u!1 &297226576
 GameObject:
   m_ObjectHideFlags: 0
@@ -10917,7 +11073,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320600557}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -11004,6 +11160,7 @@ GameObject:
   - component: {fileID: 325575522}
   - component: {fileID: 325575524}
   - component: {fileID: 325575525}
+  - component: {fileID: 325575526}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -11137,6 +11294,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &325575526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325575520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 7a10289b7b36b724bb4aea345c9fa044, type: 2}
+  targetMenu: {fileID: 802617617}
 --- !u!1 &328410407
 GameObject:
   m_ObjectHideFlags: 0
@@ -11414,6 +11585,7 @@ GameObject:
   - component: {fileID: 337669225}
   - component: {fileID: 337669227}
   - component: {fileID: 337669228}
+  - component: {fileID: 337669229}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -11547,6 +11719,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &337669229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337669223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 1de8fecd2462f9e41bf755871ee2db52, type: 2}
+  targetMenu: {fileID: 154636929}
 --- !u!1 &338075795
 GameObject:
   m_ObjectHideFlags: 0
@@ -11948,6 +12134,7 @@ GameObject:
   - component: {fileID: 350488695}
   - component: {fileID: 350488697}
   - component: {fileID: 350488698}
+  - component: {fileID: 350488699}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -12081,6 +12268,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &350488699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350488693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 3cb8b6e67fdb8614cbddba06540fb0cc, type: 2}
+  targetMenu: {fileID: 1131464285}
 --- !u!1 &353454678
 GameObject:
   m_ObjectHideFlags: 0
@@ -12326,19 +12527,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 356809365}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 356809363}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &356809365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13517,6 +13706,143 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394313784}
   m_CullTransparentMesh: 1
+--- !u!1 &396337166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396337170}
+  - component: {fileID: 396337169}
+  - component: {fileID: 396337168}
+  - component: {fileID: 396337167}
+  m_Layer: 0
+  m_Name: InspectCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &396337167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396337166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &396337168
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396337166}
+  m_Enabled: 1
+--- !u!20 &396337169
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396337166}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: 2f07094c4c2abad4f823a5d2a03fb7e6, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &396337170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396337166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1382, y: 649, z: 1000}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &397685252
 GameObject:
   m_ObjectHideFlags: 0
@@ -13944,6 +14270,7 @@ GameObject:
   - component: {fileID: 404431161}
   - component: {fileID: 404431163}
   - component: {fileID: 404431164}
+  - component: {fileID: 404431165}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -14077,6 +14404,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &404431165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404431159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 0d0fb5be435e5674186a1ac08f132210, type: 2}
+  targetMenu: {fileID: 704567535}
 --- !u!1 &405885562
 GameObject:
   m_ObjectHideFlags: 0
@@ -14480,19 +14821,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 410600835}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 410600833}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &410600835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15395,19 +15724,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 437723012}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 437723010}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &437723012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15459,6 +15776,7 @@ GameObject:
   - component: {fileID: 443851415}
   - component: {fileID: 443851417}
   - component: {fileID: 443851418}
+  - component: {fileID: 443851419}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -15592,6 +15910,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &443851419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443851413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 2c84ac9e0f0531a42a19fd3df9e4a004, type: 2}
+  targetMenu: {fileID: 873608719}
 --- !u!1 &448917721
 GameObject:
   m_ObjectHideFlags: 0
@@ -16028,6 +16360,7 @@ GameObject:
   - component: {fileID: 460087950}
   - component: {fileID: 460087952}
   - component: {fileID: 460087953}
+  - component: {fileID: 460087954}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -16161,6 +16494,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &460087954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460087948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 6184691f14fbbc74391caa1eaad78478, type: 2}
+  targetMenu: {fileID: 1081879284}
 --- !u!1 &460898659
 GameObject:
   m_ObjectHideFlags: 0
@@ -16393,19 +16740,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 460932451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 460932449}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &460932451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16604,6 +16939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 471597108}
   - component: {fileID: 471597109}
+  - component: {fileID: 471597110}
   m_Layer: 5
   m_Name: livingUprightSleepPod
   m_TagString: Untagged
@@ -16652,6 +16988,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &471597110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471597107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1890150014}
+  irlnameText: {fileID: 957340689}
+  attributesText: {fileID: 473052108}
+  gameexText: {fileID: 2039051765}
+  irlexText: {fileID: 402379394}
+  itemImage: {fileID: 137635541}
+  linkButton: {fileID: 1335649420}
 --- !u!1 &473052106
 GameObject:
   m_ObjectHideFlags: 0
@@ -17084,6 +17439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479340209}
   - component: {fileID: 479340210}
+  - component: {fileID: 479340211}
   m_Layer: 5
   m_Name: thermalCryoPump
   m_TagString: Untagged
@@ -17132,6 +17488,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &479340211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479340208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 234167840}
+  irlnameText: {fileID: 815392540}
+  attributesText: {fileID: 1519689830}
+  gameexText: {fileID: 2060010867}
+  irlexText: {fileID: 1046509099}
+  itemImage: {fileID: 1032957500}
+  linkButton: {fileID: 1112481887}
 --- !u!1 &484746100
 GameObject:
   m_ObjectHideFlags: 0
@@ -22327,6 +22702,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 40, y: 90, z: -90}
+--- !u!1 &516557897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516557899}
+  - component: {fileID: 516557898}
+  m_Layer: 0
+  m_Name: InspectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &516557898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516557897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0bacf6eb8da924bb5cf88884681e15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inspectCamera: {fileID: 396337169}
+  renderTexture: {fileID: 8400000, guid: 2f07094c4c2abad4f823a5d2a03fb7e6, type: 2}
+  spawnPoint: {fileID: 1431959701}
+--- !u!4 &516557899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516557897}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 830.9898, y: 476.3463, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &517113078
 GameObject:
   m_ObjectHideFlags: 0
@@ -22559,19 +22981,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 521486211}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 521486209}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &521486211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23309,19 +23719,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 547117834}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 547117832}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &547117834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24052,6 +24450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 583940993}
   - component: {fileID: 583940994}
+  - component: {fileID: 583940995}
   m_Layer: 5
   m_Name: powerReactorCore
   m_TagString: Untagged
@@ -24100,6 +24499,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &583940995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583940992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 906447826}
+  irlnameText: {fileID: 2042914231}
+  attributesText: {fileID: 1225234128}
+  gameexText: {fileID: 985505174}
+  irlexText: {fileID: 1457729010}
+  itemImage: {fileID: 1341606981}
+  linkButton: {fileID: 356809364}
 --- !u!1 &591065613
 GameObject:
   m_ObjectHideFlags: 0
@@ -24785,19 +25203,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 612472618}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 612472616}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &612472618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25567,19 +25973,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 636349472}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 636349470}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &636349472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27232,19 +27626,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 701779969}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 701779967}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &701779969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27702,6 +28084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704567533}
   - component: {fileID: 704567534}
+  - component: {fileID: 704567535}
   m_Layer: 5
   m_Name: controlAICore
   m_TagString: Untagged
@@ -27750,6 +28133,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &704567535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704567532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1095373289}
+  irlnameText: {fileID: 949251725}
+  attributesText: {fileID: 10541732}
+  gameexText: {fileID: 460898661}
+  irlexText: {fileID: 194926371}
+  itemImage: {fileID: 23911043}
+  linkButton: {fileID: 437723011}
 --- !u!1 &714163678
 GameObject:
   m_ObjectHideFlags: 0
@@ -28362,6 +28764,7 @@ GameObject:
   - component: {fileID: 751745108}
   - component: {fileID: 751745110}
   - component: {fileID: 751745111}
+  - component: {fileID: 751745112}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -28495,6 +28898,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &751745112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751745106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c4e552b5908700b4184b765692ad37f5, type: 2}
+  targetMenu: {fileID: 1538085521}
+--- !u!1 &753423155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 753423156}
+  - component: {fileID: 753423158}
+  - component: {fileID: 753423157}
+  m_Layer: 5
+  m_Name: InspectView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &753423156
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753423155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1431959701}
+  m_Father: {fileID: 1081879282}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -107}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &753423157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753423155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: 2f07094c4c2abad4f823a5d2a03fb7e6, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &753423158
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753423155}
+  m_CullTransparentMesh: 1
 --- !u!1 &756084367
 GameObject:
   m_ObjectHideFlags: 0
@@ -30029,6 +30519,7 @@ GameObject:
   - component: {fileID: 785411974}
   - component: {fileID: 785411976}
   - component: {fileID: 785411977}
+  - component: {fileID: 785411978}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -30162,6 +30653,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &785411978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785411972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 0a46fbefb50639a4e8b3a55e247cf121, type: 2}
+  targetMenu: {fileID: 248170695}
 --- !u!1 &786461594
 GameObject:
   m_ObjectHideFlags: 0
@@ -30448,6 +30953,7 @@ GameObject:
   - component: {fileID: 796191324}
   - component: {fileID: 796191326}
   - component: {fileID: 796191327}
+  - component: {fileID: 796191328}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -30581,6 +31087,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &796191328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796191322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 7a07df1fc22a9f74eaf5918a76867f56, type: 2}
+  targetMenu: {fileID: 1601122585}
 --- !u!1 &800931679
 GameObject:
   m_ObjectHideFlags: 0
@@ -30642,7 +31162,7 @@ MonoBehaviour:
   m_Inertia: 1
   m_DecelerationRate: 0.15
   m_ScrollSensitivity: 10
-  m_Viewport: {fileID: 0}
+  m_Viewport: {fileID: 800931680}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 2116577745}
   m_HorizontalScrollbarVisibility: 1
@@ -30659,7 +31179,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800931679}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -30713,6 +31233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 802617615}
   - component: {fileID: 802617616}
+  - component: {fileID: 802617617}
   m_Layer: 5
   m_Name: medicalDefibrillator
   m_TagString: Untagged
@@ -30761,6 +31282,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &802617617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802617614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1807673097}
+  irlnameText: {fileID: 1848280752}
+  attributesText: {fileID: 1463641769}
+  gameexText: {fileID: 450467575}
+  irlexText: {fileID: 1253700883}
+  itemImage: {fileID: 991363728}
+  linkButton: {fileID: 20114421}
 --- !u!1 &803973978
 GameObject:
   m_ObjectHideFlags: 0
@@ -35766,6 +36306,7 @@ GameObject:
   - component: {fileID: 815105779}
   - component: {fileID: 815105781}
   - component: {fileID: 815105782}
+  - component: {fileID: 815105783}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -35899,6 +36440,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &815105783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815105777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 7311ce189a7487643a57e3a69dff6e1d, type: 2}
+  targetMenu: {fileID: 921353528}
 --- !u!1 &815392538
 GameObject:
   m_ObjectHideFlags: 0
@@ -36601,19 +37156,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 827237978}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 827237976}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &827237978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36988,19 +37531,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 839257892}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 839257890}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &839257892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37568,6 +38099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873608717}
   - component: {fileID: 873608718}
+  - component: {fileID: 873608719}
   m_Layer: 5
   m_Name: kitchenFoodRehydrationStation
   m_TagString: Untagged
@@ -37616,6 +38148,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &873608719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873608716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1176660846}
+  irlnameText: {fileID: 292931834}
+  attributesText: {fileID: 2013215196}
+  gameexText: {fileID: 2067188862}
+  irlexText: {fileID: 273213709}
+  itemImage: {fileID: 982055408}
+  linkButton: {fileID: 92652463}
 --- !u!1 &876800576
 GameObject:
   m_ObjectHideFlags: 0
@@ -38034,6 +38585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 885872348}
   - component: {fileID: 885872349}
+  - component: {fileID: 885872350}
   m_Layer: 5
   m_Name: communicationKuBandAntenna
   m_TagString: Untagged
@@ -38082,6 +38634,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &885872350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885872347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 394313786}
+  irlnameText: {fileID: 1987961952}
+  attributesText: {fileID: 682043213}
+  gameexText: {fileID: 168992548}
+  irlexText: {fileID: 65818145}
+  itemImage: {fileID: 29302078}
+  linkButton: {fileID: 410600834}
 --- !u!1 &891426527
 GameObject:
   m_ObjectHideFlags: 0
@@ -38092,6 +38663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 891426528}
   - component: {fileID: 891426529}
+  - component: {fileID: 891426530}
   m_Layer: 5
   m_Name: powerBatteryBank
   m_TagString: Untagged
@@ -38140,6 +38712,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &891426530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891426527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 849384543}
+  irlnameText: {fileID: 857109660}
+  attributesText: {fileID: 822087571}
+  gameexText: {fileID: 559443861}
+  irlexText: {fileID: 1119379942}
+  itemImage: {fileID: 1629072000}
+  linkButton: {fileID: 1638637690}
 --- !u!1 &893514119
 GameObject:
   m_ObjectHideFlags: 0
@@ -38651,6 +39242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921353526}
   - component: {fileID: 921353527}
+  - component: {fileID: 921353528}
   m_Layer: 5
   m_Name: powerFuelCellGenerator
   m_TagString: Untagged
@@ -38699,6 +39291,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &921353528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921353525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 962460398}
+  irlnameText: {fileID: 1400494584}
+  attributesText: {fileID: 2103947146}
+  gameexText: {fileID: 770610613}
+  irlexText: {fileID: 2113070980}
+  itemImage: {fileID: 1027051662}
+  linkButton: {fileID: 547117833}
 --- !u!1 &926894105
 GameObject:
   m_ObjectHideFlags: 0
@@ -39080,19 +39691,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 939009706}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 939009704}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &939009706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40112,6 +40711,7 @@ GameObject:
   - component: {fileID: 962984228}
   - component: {fileID: 962984230}
   - component: {fileID: 962984231}
+  - component: {fileID: 962984232}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -40245,6 +40845,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &962984232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962984226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 21245c6d886ab74468b699d4b8aeafd8, type: 2}
+  targetMenu: {fileID: 1499701728}
 --- !u!1 &965839163
 GameObject:
   m_ObjectHideFlags: 0
@@ -40340,19 +40954,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 965839167}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 965839165}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &965839167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40902,6 +41504,7 @@ GameObject:
   - component: {fileID: 1007384551}
   - component: {fileID: 1007384553}
   - component: {fileID: 1007384554}
+  - component: {fileID: 1007384555}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -41035,6 +41638,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1007384555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007384549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 7ea57578dcdcd494ab9eeea60651553b, type: 2}
+  targetMenu: {fileID: 2143592512}
 --- !u!1 &1008648609
 GameObject:
   m_ObjectHideFlags: 0
@@ -41311,6 +41928,7 @@ GameObject:
   - component: {fileID: 1021091952}
   - component: {fileID: 1021091954}
   - component: {fileID: 1021091955}
+  - component: {fileID: 1021091956}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -41444,6 +42062,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1021091956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021091950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: e3327b74946514146a322956510e04a8, type: 2}
+  targetMenu: {fileID: 1750740615}
 --- !u!1 &1021390923
 GameObject:
   m_ObjectHideFlags: 0
@@ -42283,19 +42915,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1030741864}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1030741862}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1030741864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42754,6 +43374,7 @@ GameObject:
   - component: {fileID: 1033481824}
   - component: {fileID: 1033481826}
   - component: {fileID: 1033481827}
+  - component: {fileID: 1033481828}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -42887,6 +43508,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1033481828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033481822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 8e10097b4e8901342b75766233c8733f, type: 2}
+  targetMenu: {fileID: 1496450642}
 --- !u!1 &1038128807
 GameObject:
   m_ObjectHideFlags: 0
@@ -44279,19 +44914,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1057651162}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1057651160}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1057651162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44425,19 +45048,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1058225122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1058225120}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1058225122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44489,6 +45100,7 @@ GameObject:
   - component: {fileID: 1065845242}
   - component: {fileID: 1065845244}
   - component: {fileID: 1065845245}
+  - component: {fileID: 1065845246}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -44622,6 +45234,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1065845246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065845240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 94ba701a207892444b817158e3623640, type: 2}
+  targetMenu: {fileID: 479340211}
 --- !u!1 &1067509804
 GameObject:
   m_ObjectHideFlags: 0
@@ -44635,6 +45261,7 @@ GameObject:
   - component: {fileID: 1067509806}
   - component: {fileID: 1067509808}
   - component: {fileID: 1067509809}
+  - component: {fileID: 1067509810}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -44768,6 +45395,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1067509810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067509804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 008929454ae3ff34ca38b50cbc955395, type: 2}
+  targetMenu: {fileID: 583940995}
 --- !u!1 &1072655802
 GameObject:
   m_ObjectHideFlags: 0
@@ -44914,6 +45555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1081879282}
   - component: {fileID: 1081879283}
+  - component: {fileID: 1081879284}
   m_Layer: 5
   m_Name: communicationDataHub
   m_TagString: Untagged
@@ -44940,8 +45582,8 @@ RectTransform:
   - {fileID: 1686841880}
   - {fileID: 1697277012}
   - {fileID: 1114792463}
-  - {fileID: 1125961706}
   - {fileID: 684345075}
+  - {fileID: 753423156}
   m_Father: {fileID: 853585916}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -44963,6 +45605,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1081879284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081879281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1072655804}
+  irlnameText: {fileID: 1554817340}
+  attributesText: {fileID: 1686841881}
+  gameexText: {fileID: 1697277013}
+  irlexText: {fileID: 1114792464}
+  itemImage: {fileID: 2105674444}
+  linkButton: {fileID: 1030741863}
 --- !u!1 &1088871973
 GameObject:
   m_ObjectHideFlags: 0
@@ -45829,6 +46490,7 @@ GameObject:
   - component: {fileID: 1100054005}
   - component: {fileID: 1100054007}
   - component: {fileID: 1100054008}
+  - component: {fileID: 1100054009}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -45962,6 +46624,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1100054009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100054003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 9b7f6869fdcf5bd4a98d984b9290bdbf, type: 2}
+  targetMenu: {fileID: 1277399660}
 --- !u!1 &1101374664
 GameObject:
   m_ObjectHideFlags: 0
@@ -45972,6 +46648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101374665}
   - component: {fileID: 1101374666}
+  - component: {fileID: 1101374667}
   m_Layer: 5
   m_Name: kitchenWaterDispenser
   m_TagString: Untagged
@@ -46020,6 +46697,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1101374667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101374664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 217826584}
+  irlnameText: {fileID: 2011949647}
+  attributesText: {fileID: 1285474644}
+  gameexText: {fileID: 1179136644}
+  irlexText: {fileID: 1052289646}
+  itemImage: {fileID: 434084788}
+  linkButton: {fileID: 827237977}
 --- !u!1 &1101382301
 GameObject:
   m_ObjectHideFlags: 0
@@ -46386,19 +47082,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1112481888}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1112481886}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1112481888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46860,6 +47544,7 @@ GameObject:
   - component: {fileID: 1125476090}
   - component: {fileID: 1125476092}
   - component: {fileID: 1125476093}
+  - component: {fileID: 1125476094}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -46993,6 +47678,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1125476094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125476088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 79c12d331636c3e4fa18fb105b7cae24, type: 2}
+  targetMenu: {fileID: 1954544135}
 --- !u!1 &1125938160
 GameObject:
   m_ObjectHideFlags: 0
@@ -47129,97 +47828,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125938160}
   m_CullTransparentMesh: 1
---- !u!1 &1125961705
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1125961706}
-  - component: {fileID: 1125961709}
-  - component: {fileID: 1125961708}
-  - component: {fileID: 1125961707}
-  m_Layer: 5
-  m_Name: Screen
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1125961706
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125961705}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.80983436, y: 0.41239, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1081879282}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -129}
-  m_SizeDelta: {x: 950, y: 550}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1125961707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125961705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0.8278146, b: 1, a: 1}
-  m_EffectDistance: {x: 20, y: -20}
-  m_UseGraphicAlpha: 0
---- !u!114 &1125961708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125961705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1125961709
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125961705}
-  m_CullTransparentMesh: 1
 --- !u!1 &1127407741
 GameObject:
   m_ObjectHideFlags: 0
@@ -47266,6 +47874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131464283}
   - component: {fileID: 1131464284}
+  - component: {fileID: 1131464285}
   m_Layer: 5
   m_Name: thermalRadiatorPanel
   m_TagString: Untagged
@@ -47314,6 +47923,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1131464285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131464282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1125938162}
+  irlnameText: {fileID: 592519415}
+  attributesText: {fileID: 1343388470}
+  gameexText: {fileID: 1986896768}
+  irlexText: {fileID: 783925895}
+  itemImage: {fileID: 822446161}
+  linkButton: {fileID: 460932450}
 --- !u!1 &1134205321
 GameObject:
   m_ObjectHideFlags: 0
@@ -47499,6 +48127,7 @@ GameObject:
   - component: {fileID: 1138550690}
   - component: {fileID: 1138550692}
   - component: {fileID: 1138550693}
+  - component: {fileID: 1138550694}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -47632,6 +48261,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1138550694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138550688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: a4dc35dd676688f49af14cc7ceb4178f, type: 2}
+  targetMenu: {fileID: 1101374667}
 --- !u!1 &1138583240
 GameObject:
   m_ObjectHideFlags: 0
@@ -47781,6 +48424,7 @@ GameObject:
   - component: {fileID: 1139604634}
   - component: {fileID: 1139604636}
   - component: {fileID: 1139604637}
+  - component: {fileID: 1139604638}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -47914,6 +48558,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1139604638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139604632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c314982e16cd2f24889aa6ba8ead376c, type: 2}
+  targetMenu: {fileID: 1620590494}
 --- !u!1 &1155073388
 GameObject:
   m_ObjectHideFlags: 0
@@ -48655,6 +49313,7 @@ GameObject:
   - component: {fileID: 1178777155}
   - component: {fileID: 1178777157}
   - component: {fileID: 1178777158}
+  - component: {fileID: 1178777159}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -48788,6 +49447,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1178777159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178777153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: ec8d034ff07f9324fbc0637bc5954a93, type: 2}
+  targetMenu: {fileID: 65966398}
 --- !u!1 &1179136642
 GameObject:
   m_ObjectHideFlags: 0
@@ -48935,6 +49608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1184174390}
   - component: {fileID: 1184174391}
+  - component: {fileID: 1184174392}
   m_Layer: 5
   m_Name: medicalAmbulatoryMedicalPack
   m_TagString: Untagged
@@ -48983,6 +49657,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1184174392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184174389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 2029919076}
+  irlnameText: {fileID: 1874591857}
+  attributesText: {fileID: 958559187}
+  gameexText: {fileID: 1871348305}
+  irlexText: {fileID: 2005666619}
+  itemImage: {fileID: 1727787963}
+  linkButton: {fileID: 1774922140}
 --- !u!1 &1186543978
 GameObject:
   m_ObjectHideFlags: 0
@@ -49078,19 +49771,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1186543982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1186543980}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1186543982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50037,6 +50718,7 @@ GameObject:
   - component: {fileID: 1213150588}
   - component: {fileID: 1213150590}
   - component: {fileID: 1213150591}
+  - component: {fileID: 1213150592}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -50170,6 +50852,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1213150592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213150586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: f926bbca2c192ca4ab1b04b57755cf57, type: 2}
+  targetMenu: {fileID: 885872350}
 --- !u!1 &1214750163
 GameObject:
   m_ObjectHideFlags: 0
@@ -50219,6 +50915,7 @@ GameObject:
   - component: {fileID: 1219655764}
   - component: {fileID: 1219655766}
   - component: {fileID: 1219655767}
+  - component: {fileID: 1219655768}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -50352,6 +51049,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1219655768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219655762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 3b3cbc2f8ca43394c81fbc906f023f2d, type: 2}
+  targetMenu: {fileID: 1815425403}
 --- !u!1 &1225234126
 GameObject:
   m_ObjectHideFlags: 0
@@ -50684,6 +51395,7 @@ GameObject:
   - component: {fileID: 1228044099}
   - component: {fileID: 1228044101}
   - component: {fileID: 1228044102}
+  - component: {fileID: 1228044103}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -50817,6 +51529,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1228044103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228044097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: d6e4a87f94de5f04f8aad4cf8ce47cbb, type: 2}
+  targetMenu: {fileID: 1463150513}
 --- !u!1 &1228365379
 GameObject:
   m_ObjectHideFlags: 0
@@ -51409,6 +52135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252636226}
   - component: {fileID: 1252636227}
+  - component: {fileID: 1252636228}
   m_Layer: 5
   m_Name: kitchenThermostabilizedFood
   m_TagString: Untagged
@@ -51457,6 +52184,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1252636228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252636225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 2041494108}
+  irlnameText: {fileID: 1802802167}
+  attributesText: {fileID: 1573253144}
+  gameexText: {fileID: 914782302}
+  irlexText: {fileID: 1516835903}
+  itemImage: {fileID: 1107079785}
+  linkButton: {fileID: 240673635}
 --- !u!1 &1253630059
 GameObject:
   m_ObjectHideFlags: 0
@@ -51552,19 +52298,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1253630063}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1253630061}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1253630063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51922,6 +52656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277399658}
   - component: {fileID: 1277399659}
+  - component: {fileID: 1277399660}
   m_Layer: 5
   m_Name: medicalMedicalSoftGoods
   m_TagString: Untagged
@@ -51970,6 +52705,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1277399660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277399657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1903969354}
+  irlnameText: {fileID: 701846250}
+  attributesText: {fileID: 453251616}
+  gameexText: {fileID: 1559143674}
+  irlexText: {fileID: 1835442938}
+  itemImage: {fileID: 1618134684}
+  linkButton: {fileID: 1672714775}
 --- !u!1 &1280461523
 GameObject:
   m_ObjectHideFlags: 0
@@ -52397,6 +53151,7 @@ GameObject:
   - component: {fileID: 1301172372}
   - component: {fileID: 1301172374}
   - component: {fileID: 1301172375}
+  - component: {fileID: 1301172376}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -52530,6 +53285,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1301172376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301172370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 313a17f91f3594744a03fc64987aad65, type: 2}
+  targetMenu: {fileID: 198689014}
 --- !u!1 &1312226427
 GameObject:
   m_ObjectHideFlags: 0
@@ -52679,6 +53448,7 @@ GameObject:
   - component: {fileID: 1313494140}
   - component: {fileID: 1313494142}
   - component: {fileID: 1313494143}
+  - component: {fileID: 1313494144}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -52812,6 +53582,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1313494144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313494138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 738a34f52aed30840b3f6000868589d3, type: 2}
+  targetMenu: {fileID: 227367687}
 --- !u!1 &1315847104
 GameObject:
   m_ObjectHideFlags: 0
@@ -53255,19 +54039,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1335649421}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1335649419}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1335649421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53740,6 +54512,7 @@ GameObject:
   - component: {fileID: 1349562865}
   - component: {fileID: 1349562867}
   - component: {fileID: 1349562868}
+  - component: {fileID: 1349562869}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -53873,6 +54646,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1349562869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349562863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c7e5fbd3b3e101547b1b5745f15111f1, type: 2}
+  targetMenu: {fileID: 1983044265}
 --- !u!1 &1352391693
 GameObject:
   m_ObjectHideFlags: 0
@@ -54033,6 +54820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355576674}
   - component: {fileID: 1355576675}
+  - component: {fileID: 1355576676}
   m_Layer: 5
   m_Name: kitchenlFreezeDriedFoodPackets
   m_TagString: Untagged
@@ -54081,6 +54869,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1355576676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355576673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 599724002}
+  irlnameText: {fileID: 1999605817}
+  attributesText: {fileID: 928231629}
+  gameexText: {fileID: 204953983}
+  irlexText: {fileID: 187428329}
+  itemImage: {fileID: 883947564}
+  linkButton: {fileID: 1057651161}
 --- !u!1 &1355987358
 GameObject:
   m_ObjectHideFlags: 0
@@ -54271,6 +55078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1358399665}
   - component: {fileID: 1358399666}
+  - component: {fileID: 1358399667}
   m_Layer: 5
   m_Name: storage3DPrinter
   m_TagString: Untagged
@@ -54319,6 +55127,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1358399667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358399664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 420623108}
+  irlnameText: {fileID: 1821175039}
+  attributesText: {fileID: 1613695691}
+  gameexText: {fileID: 2074377454}
+  irlexText: {fileID: 1566900697}
+  itemImage: {fileID: 1376299186}
+  linkButton: {fileID: 1508396141}
 --- !u!1 &1363471340
 GameObject:
   m_ObjectHideFlags: 0
@@ -55773,6 +56600,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411368680}
   m_CullTransparentMesh: 1
+--- !u!1 &1431959700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431959701}
+  m_Layer: 5
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1431959701
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431959700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 753423156}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -16, y: -49}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1457729008
 GameObject:
   m_ObjectHideFlags: 0
@@ -56000,6 +56862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463150511}
   - component: {fileID: 1463150512}
+  - component: {fileID: 1463150513}
   m_Layer: 5
   m_Name: livingAREDDevice
   m_TagString: Untagged
@@ -56048,6 +56911,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1463150513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463150510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 297226578}
+  irlnameText: {fileID: 591065615}
+  attributesText: {fileID: 353454680}
+  gameexText: {fileID: 1466684147}
+  irlexText: {fileID: 1660557492}
+  itemImage: {fileID: 1933602577}
+  linkButton: {fileID: 127815532}
 --- !u!1 &1463641767
 GameObject:
   m_ObjectHideFlags: 0
@@ -57744,6 +58626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496450640}
   - component: {fileID: 1496450641}
+  - component: {fileID: 1496450642}
   m_Layer: 5
   m_Name: waterairWaterElectrolyzer
   m_TagString: Untagged
@@ -57792,6 +58675,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1496450642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496450639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1773531184}
+  irlnameText: {fileID: 1392250590}
+  attributesText: {fileID: 803973980}
+  gameexText: {fileID: 2033885973}
+  irlexText: {fileID: 629399085}
+  itemImage: {fileID: 96490607}
+  linkButton: {fileID: 939009705}
 --- !u!1 &1496662112
 GameObject:
   m_ObjectHideFlags: 0
@@ -57937,6 +58839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1499701726}
   - component: {fileID: 1499701727}
+  - component: {fileID: 1499701728}
   m_Layer: 5
   m_Name: thermalHeatExchanger
   m_TagString: Untagged
@@ -57985,6 +58888,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1499701728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499701725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1471196950}
+  irlnameText: {fileID: 618776185}
+  attributesText: {fileID: 1865115532}
+  gameexText: {fileID: 1826365001}
+  irlexText: {fileID: 702238514}
+  itemImage: {fileID: 1170814903}
+  linkButton: {fileID: 1865520735}
 --- !u!1 &1505537416
 GameObject:
   m_ObjectHideFlags: 0
@@ -58216,19 +59138,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1508396142}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1508396140}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1508396142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59431,6 +60341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538085519}
   - component: {fileID: 1538085520}
+  - component: {fileID: 1538085521}
   m_Layer: 5
   m_Name: medicalOrcheoLiteTEUltrasoundScanner
   m_TagString: Untagged
@@ -59479,6 +60390,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1538085521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538085518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 285132139}
+  irlnameText: {fileID: 522699585}
+  attributesText: {fileID: 143786241}
+  gameexText: {fileID: 1046641205}
+  irlexText: {fileID: 1091161075}
+  itemImage: {fileID: 74640809}
+  linkButton: {fileID: 636349471}
 --- !u!1 &1547014556
 GameObject:
   m_ObjectHideFlags: 0
@@ -59574,19 +60504,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1547014560}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1547014558}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1547014560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59729,6 +60647,7 @@ GameObject:
   - component: {fileID: 1550778183}
   - component: {fileID: 1550778185}
   - component: {fileID: 1550778186}
+  - component: {fileID: 1550778187}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -59862,6 +60781,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1550778187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550778181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: e898072fb39370d4ab43a32d6ab49f2d, type: 2}
+  targetMenu: {fileID: 1184174392}
 --- !u!1 &1552711701
 GameObject:
   m_ObjectHideFlags: 0
@@ -60331,6 +61264,7 @@ GameObject:
   - component: {fileID: 1564627091}
   - component: {fileID: 1564627093}
   - component: {fileID: 1564627094}
+  - component: {fileID: 1564627095}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -60464,6 +61398,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1564627095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564627089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c306426bc5d01ce4ea44532baa893d77, type: 2}
+  targetMenu: {fileID: 226381153}
 --- !u!1 &1565121620
 GameObject:
   m_ObjectHideFlags: 0
@@ -60991,6 +61939,7 @@ GameObject:
   - component: {fileID: 1582045302}
   - component: {fileID: 1582045304}
   - component: {fileID: 1582045305}
+  - component: {fileID: 1582045306}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -61124,6 +62073,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1582045306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582045300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 218a1d0189f88e44c9b8bd637544e273, type: 2}
+  targetMenu: {fileID: 891426530}
 --- !u!1 &1591891619
 GameObject:
   m_ObjectHideFlags: 0
@@ -61271,6 +62234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1601122583}
   - component: {fileID: 1601122584}
+  - component: {fileID: 1601122585}
   m_Layer: 5
   m_Name: storageFireSuppression
   m_TagString: Untagged
@@ -61319,6 +62283,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1601122585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601122582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 373730818}
+  irlnameText: {fileID: 2104131850}
+  attributesText: {fileID: 1487479583}
+  gameexText: {fileID: 2061954730}
+  irlexText: {fileID: 553220036}
+  itemImage: {fileID: 1676892921}
+  linkButton: {fileID: 1253630062}
 --- !u!1 &1603965884
 GameObject:
   m_ObjectHideFlags: 0
@@ -61414,19 +62397,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1603965888}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1603965886}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1603965888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61560,19 +62531,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1605192648}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1605192646}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1605192648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62268,6 +63227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620590492}
   - component: {fileID: 1620590493}
+  - component: {fileID: 1620590494}
   m_Layer: 5
   m_Name: storageRadiationShielding
   m_TagString: Untagged
@@ -62316,6 +63276,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1620590494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620590491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 431918547}
+  irlnameText: {fileID: 1008688650}
+  attributesText: {fileID: 168651105}
+  gameexText: {fileID: 145621422}
+  irlexText: {fileID: 92536844}
+  itemImage: {fileID: 1189767131}
+  linkButton: {fileID: 12814044}
 --- !u!1 &1623700345
 GameObject:
   m_ObjectHideFlags: 0
@@ -62773,19 +63752,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1638637691}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1638637689}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1638637691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63625,19 +64592,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1672714776}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1672714774}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1672714776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63689,6 +64644,7 @@ GameObject:
   - component: {fileID: 1673076351}
   - component: {fileID: 1673076353}
   - component: {fileID: 1673076354}
+  - component: {fileID: 1673076355}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -63822,6 +64778,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1673076355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673076349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c850d136194c77d4797b27f674352861, type: 2}
+  targetMenu: {fileID: 1358399667}
 --- !u!1 &1674824123
 GameObject:
   m_ObjectHideFlags: 0
@@ -69794,6 +70764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741145644}
   - component: {fileID: 1741145645}
+  - component: {fileID: 1741145646}
   m_Layer: 5
   m_Name: kitchenHydroponicsFarm
   m_TagString: Untagged
@@ -69842,6 +70813,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1741145646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741145643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1530604975}
+  irlnameText: {fileID: 1873617036}
+  attributesText: {fileID: 361567037}
+  gameexText: {fileID: 174440284}
+  irlexText: {fileID: 959558242}
+  itemImage: {fileID: 130408268}
+  linkButton: {fileID: 32118418}
 --- !u!1 &1741711581
 GameObject:
   m_ObjectHideFlags: 0
@@ -69935,6 +70925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1750740613}
   - component: {fileID: 1750740614}
+  - component: {fileID: 1750740615}
   m_Layer: 5
   m_Name: waterairAdvancedPurifier
   m_TagString: Untagged
@@ -69983,6 +70974,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1750740615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750740612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 961334042}
+  irlnameText: {fileID: 1249530196}
+  attributesText: {fileID: 281675597}
+  gameexText: {fileID: 730967248}
+  irlexText: {fileID: 1228365381}
+  itemImage: {fileID: 1195729318}
+  linkButton: {fileID: 1605192647}
 --- !u!1 &1764793481
 GameObject:
   m_ObjectHideFlags: 0
@@ -70440,19 +71450,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1774922141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1774922139}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1774922141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70732,6 +71730,7 @@ GameObject:
   - component: {fileID: 1794634068}
   - component: {fileID: 1794634070}
   - component: {fileID: 1794634071}
+  - component: {fileID: 1794634072}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -70865,6 +71864,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1794634072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794634066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 086de6fda4cea0d4188dbecc6e366b4f, type: 2}
+  targetMenu: {fileID: 2059747649}
 --- !u!1 &1795487933
 GameObject:
   m_ObjectHideFlags: 0
@@ -70878,6 +71891,7 @@ GameObject:
   - component: {fileID: 1795487935}
   - component: {fileID: 1795487937}
   - component: {fileID: 1795487938}
+  - component: {fileID: 1795487939}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -71011,6 +72025,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1795487939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795487933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 347929ba45a0c3f409109307437866d6, type: 2}
+  targetMenu: {fileID: 1252636228}
 --- !u!1 &1795596913
 GameObject:
   m_ObjectHideFlags: 0
@@ -71331,6 +72359,7 @@ GameObject:
   - component: {fileID: 1803486886}
   - component: {fileID: 1803486888}
   - component: {fileID: 1803486889}
+  - component: {fileID: 1803486890}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -71464,6 +72493,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1803486890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803486884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: a4c6b3495e2ceac4d9ba1b7259b7ba1b, type: 2}
+  targetMenu: {fileID: 1963184847}
 --- !u!1 &1807673095
 GameObject:
   m_ObjectHideFlags: 0
@@ -71746,6 +72789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815425401}
   - component: {fileID: 1815425402}
+  - component: {fileID: 1815425403}
   m_Layer: 5
   m_Name: communicationUFHAntenna
   m_TagString: Untagged
@@ -71794,6 +72838,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1815425403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815425400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1807995425}
+  irlnameText: {fileID: 1095667558}
+  attributesText: {fileID: 1352391695}
+  gameexText: {fileID: 1649697876}
+  irlexText: {fileID: 1026749090}
+  itemImage: {fileID: 293669249}
+  linkButton: {fileID: 612472617}
 --- !u!1 &1821175037
 GameObject:
   m_ObjectHideFlags: 0
@@ -72882,19 +73945,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1863708312}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1863708310}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1863708312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73214,19 +74265,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1865520736}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1865520734}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1865520736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74344,6 +75383,7 @@ GameObject:
   - component: {fileID: 1898964073}
   - component: {fileID: 1898964075}
   - component: {fileID: 1898964076}
+  - component: {fileID: 1898964077}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -74477,6 +75517,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1898964077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898964071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: c99b38304d2cd4f44af46e8d8f4a2f1c, type: 2}
+  targetMenu: {fileID: 1355576676}
 --- !u!1 &1900742753
 GameObject:
   m_ObjectHideFlags: 0
@@ -74741,19 +75795,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1901905258}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1901905256}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &1901905258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75848,6 +76890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1954544133}
   - component: {fileID: 1954544134}
+  - component: {fileID: 1954544135}
   m_Layer: 5
   m_Name: kitchenEspressoMachine
   m_TagString: Untagged
@@ -75896,6 +76939,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1954544135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954544132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 409172050}
+  irlnameText: {fileID: 661169174}
+  attributesText: {fileID: 461327023}
+  gameexText: {fileID: 211101103}
+  irlexText: {fileID: 689099991}
+  itemImage: {fileID: 1050658318}
+  linkButton: {fileID: 1547014559}
 --- !u!1 &1963184844
 GameObject:
   m_ObjectHideFlags: 0
@@ -75906,6 +76968,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963184845}
   - component: {fileID: 1963184846}
+  - component: {fileID: 1963184847}
   m_Layer: 5
   m_Name: kitchenFridge
   m_TagString: Untagged
@@ -75954,6 +77017,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1963184847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963184844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1890595916}
+  irlnameText: {fileID: 1370698969}
+  attributesText: {fileID: 1021390925}
+  gameexText: {fileID: 1300875940}
+  irlexText: {fileID: 338075797}
+  itemImage: {fileID: 249866474}
+  linkButton: {fileID: 1186543981}
 --- !u!1 &1964484207
 GameObject:
   m_ObjectHideFlags: 0
@@ -81034,6 +82116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1983044263}
   - component: {fileID: 1983044264}
+  - component: {fileID: 1983044265}
   m_Layer: 5
   m_Name: wasteWasteBioreactor
   m_TagString: Untagged
@@ -81082,6 +82165,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &1983044265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983044262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 290473237}
+  irlnameText: {fileID: 1873394552}
+  attributesText: {fileID: 820138807}
+  gameexText: {fileID: 1964484209}
+  irlexText: {fileID: 1487197286}
+  itemImage: {fileID: 1496662116}
+  linkButton: {fileID: 2070226548}
 --- !u!1 &1985444581
 GameObject:
   m_ObjectHideFlags: 0
@@ -81361,6 +82463,7 @@ GameObject:
   - component: {fileID: 1987379480}
   - component: {fileID: 1987379482}
   - component: {fileID: 1987379483}
+  - component: {fileID: 1987379484}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -81494,6 +82597,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &1987379484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987379478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 55602693dfb9bb0448f92e75d44c1632, type: 2}
+  targetMenu: {fileID: 230725353}
 --- !u!1 &1987961950
 GameObject:
   m_ObjectHideFlags: 0
@@ -82411,6 +83528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013061457}
   - component: {fileID: 2013061458}
+  - component: {fileID: 2013061459}
   m_Layer: 5
   m_Name: controlCommandWorkstation
   m_TagString: Untagged
@@ -82459,6 +83577,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &2013061459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013061456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 41018495}
+  irlnameText: {fileID: 1369187839}
+  attributesText: {fileID: 402834440}
+  gameexText: {fileID: 100955416}
+  irlexText: {fileID: 1905546584}
+  itemImage: {fileID: 425145595}
+  linkButton: {fileID: 701779968}
 --- !u!1 &2013215194
 GameObject:
   m_ObjectHideFlags: 0
@@ -83113,19 +84250,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2038734412}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2038734410}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &2038734412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83794,6 +84919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2059747647}
   - component: {fileID: 2059747648}
+  - component: {fileID: 2059747649}
   m_Layer: 5
   m_Name: powerFusionReactor
   m_TagString: Untagged
@@ -83842,6 +84968,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &2059747649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059747646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 926894107}
+  irlnameText: {fileID: 344764452}
+  attributesText: {fileID: 827376038}
+  gameexText: {fileID: 1736693109}
+  irlexText: {fileID: 876800578}
+  itemImage: {fileID: 150486270}
+  linkButton: {fileID: 2038734411}
 --- !u!1 &2060010865
 GameObject:
   m_ObjectHideFlags: 0
@@ -84348,19 +85493,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2070226549}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2070226547}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &2070226549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84767,19 +85900,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2078086450}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2078086448}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &2078086450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85186,19 +86307,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2093431477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2093431475}
-        m_TargetAssemblyTypeName: OpenLink, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: www.youtube.com
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &2093431477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85386,6 +86495,7 @@ GameObject:
   - component: {fileID: 2099950948}
   - component: {fileID: 2099950950}
   - component: {fileID: 2099950951}
+  - component: {fileID: 2099950952}
   m_Layer: 5
   m_Name: Object
   m_TagString: Untagged
@@ -85519,6 +86629,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menus: []
+--- !u!114 &2099950952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099950946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c21b8d330a5c943b831af7be49b08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 32a96c90764821c42a6ea259f4cb4c5b, type: 2}
+  targetMenu: {fileID: 2013061459}
 --- !u!1 &2103728828
 GameObject:
   m_ObjectHideFlags: 0
@@ -86774,6 +87898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143592510}
   - component: {fileID: 2143592511}
+  - component: {fileID: 2143592512}
   m_Layer: 5
   m_Name: storageNASADataServer
   m_TagString: Untagged
@@ -86822,6 +87947,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &2143592512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143592509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a15072ef92a3faa4a8fa9e42ebc3c3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 36566485}
+  irlnameText: {fileID: 1134205323}
+  attributesText: {fileID: 774085650}
+  gameexText: {fileID: 1591891621}
+  irlexText: {fileID: 2133314109}
+  itemImage: {fileID: 1795596917}
+  linkButton: {fileID: 2093431476}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -86839,3 +87983,5 @@ SceneRoots:
   - {fileID: 1049517897}
   - {fileID: 1318492622}
   - {fileID: 160502034}
+  - {fileID: 516557899}
+  - {fileID: 396337170}
