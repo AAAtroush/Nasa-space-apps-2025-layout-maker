@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using System.Collections.Generic;
+using Unity.Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,10 +24,37 @@ public class GameManager : MonoBehaviour
     private int currentRoomIndex = 0;
     private PlacementSystem placementSystem;
 
+
+    private Dictionary<int, CinemachineCamera> roomCameras = new Dictionary<int, CinemachineCamera>();
+    private CinemachineCamera currentActiveCamera;
+
     void Start()
     {
         placementSystem = FindObjectOfType<PlacementSystem>();
         UpdatePhaseUI();
+
+        InitializeRoomCameras();
+    }
+
+    private void InitializeRoomCameras()
+    {
+        roomCameras.Clear();
+
+        // Get all placed rooms and find their virtual cameras
+        RoomController[] allRooms = FindObjectsByType<RoomController>(FindObjectsSortMode.None);
+        foreach (RoomController room in allRooms)
+        {
+            if (room.RoomID != -1)
+            {
+                CinemachineCamera vcam = room.GetComponentInChildren<CinemachineCamera>();
+                if (vcam != null)
+                {
+                    roomCameras[room.RoomID] = vcam;
+                    // Initially set all cameras to low priority
+                    vcam.Priority = 1;
+                }
+            }
+        }
     }
 
     private void Update()
@@ -63,6 +91,8 @@ public class GameManager : MonoBehaviour
             {
                 currentRoomIndex = 0;
 
+                InitializeRoomCameras();
+                SwitchToRoomCamera(availableRooms[currentRoomIndex]);
                 // DEBUG: Log all available rooms and their types
                 foreach (int roomID in availableRooms)
                 {
@@ -84,6 +114,7 @@ public class GameManager : MonoBehaviour
         if (availableRooms.Count > 1)
         {
             currentRoomIndex = (currentRoomIndex + 1) % availableRooms.Count;
+            SwitchToRoomCamera(availableRooms[currentRoomIndex]);
             UpdatePhaseUI();
         }
     }
@@ -93,8 +124,55 @@ public class GameManager : MonoBehaviour
         if (availableRooms.Count > 1)
         {
             currentRoomIndex = (currentRoomIndex - 1 + availableRooms.Count) % availableRooms.Count;
+            SwitchToRoomCamera(availableRooms[currentRoomIndex]);
             UpdatePhaseUI();
         }
+    }
+
+    private void SwitchToRoomCamera(int roomID)
+    {
+        // Deactivate current camera
+        if (currentActiveCamera != null)
+        {
+            currentActiveCamera.Priority = 1;
+        }
+
+        // Activate new camera
+        if (roomCameras.ContainsKey(roomID))
+        {
+            currentActiveCamera = roomCameras[roomID];
+            currentActiveCamera.Priority = 11; // Higher priority to take over
+        }
+        else
+        {
+            Debug.LogWarning($"No camera found for room ID: {roomID}");
+
+            // Try to find the camera if it wasn't initialized
+            RoomController room = FindRoomByID(roomID);
+            if (room != null)
+            {
+                CinemachineCamera vcam = room.GetComponentInChildren<CinemachineCamera>();
+                if (vcam != null)
+                {
+                    roomCameras[roomID] = vcam;
+                    currentActiveCamera = vcam;
+                    currentActiveCamera.Priority = 11;
+                }
+            }
+        }
+    }
+
+    private RoomController FindRoomByID(int roomID)
+    {
+        RoomController[] allRooms = FindObjectsByType<RoomController>(FindObjectsSortMode.None);
+        foreach (RoomController room in allRooms)
+        {
+            if (room.RoomID == roomID)
+            {
+                return room;
+            }
+        }
+        return null;
     }
 
     private void UpdatePhaseUI()
