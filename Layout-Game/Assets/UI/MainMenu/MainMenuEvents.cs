@@ -9,7 +9,6 @@ using System;
 public class MainMenuEvents : MonoBehaviour
 {
     private UIDocument _document;
-    public String PlayScene;
 
     // Buttons
     public Button PlayButton;
@@ -24,6 +23,9 @@ public class MainMenuEvents : MonoBehaviour
 
     // Panels
     public GameObject catalougePanel;
+    public GameObject cacpanel;
+    public GameObject Guipanel;
+    public GameObject GameDif;
     public VisualElement settingsPanel;
     public VisualElement mainMenuPanel;
     public VisualElement creditPanel;
@@ -130,6 +132,9 @@ public class MainMenuEvents : MonoBehaviour
         if (creditsCanvas != null)
             creditsCanvas.localPosition = creditsStartPos;
         catalougePanel.SetActive(false);
+        cacpanel.SetActive(false);
+        Guipanel.SetActive(false);
+        GameDif.SetActive(false);
 
     }
 
@@ -152,8 +157,15 @@ public class MainMenuEvents : MonoBehaviour
 
     private void OnPlayGameClick(ClickEvent evt)
     {
-        Debug.Log("Start Game");
-       SceneManager.LoadScene(PlayScene);
+        GameDif.SetActive(true);
+        creditPanel.style.display = DisplayStyle.None;
+        settingsPanel.style.display = DisplayStyle.None;
+        mainMenuPanel.style.display = DisplayStyle.None;
+        menuPanel.style.display = DisplayStyle.Flex;
+    }
+    public void OnPlayClick(string scene)
+    {
+       SceneManager.LoadScene(scene);
     }
 
     private void OnMenu(ClickEvent evt)
@@ -203,6 +215,8 @@ public class MainMenuEvents : MonoBehaviour
         mainMenuPanel.style.display = DisplayStyle.Flex;
         menuPanel.style.display = DisplayStyle.None;
         catalougePanel.SetActive(false);
+        cacpanel.SetActive(false);
+        Guipanel.SetActive(false);
 
 
         if (mainCamera != null)
