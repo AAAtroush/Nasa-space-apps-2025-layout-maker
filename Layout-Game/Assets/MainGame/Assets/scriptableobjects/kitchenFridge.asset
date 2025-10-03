@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: kitchenFridge
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: Fridge
+  irlname: ISS Refrigeration Unit
+  attributes: "Power: \u221220\r\nCooling: \u221215\r\nWater: \u22122\r\nWaste: +2\r\nTreatments:
+    +1\r\nSystemRiskMod: +1"
+  gameex: Preserves food and medicine. Essential for long trips, but adds heavy cooling
+    cost.
   irlex: almfgkamlgfml
+  price: 'Size: 6x3
+
+    Cost: 600'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 8497350510670593161, guid: b2d771ce1c1426444b232457059044e8, type: 3}

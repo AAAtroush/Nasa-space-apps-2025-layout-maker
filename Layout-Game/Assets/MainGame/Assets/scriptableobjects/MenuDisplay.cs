@@ -10,6 +10,7 @@ public class MenuDisplay : MonoBehaviour
     public TMP_Text attributesText;
     public TMP_Text gameexText;
     public TMP_Text irlexText;
+    public TMP_Text priceText;
     public Image itemImage;
     public Button linkButton;
 
@@ -17,14 +18,9 @@ public class MenuDisplay : MonoBehaviour
 
     private void Awake()
     {
-        // Grab the one ItemInspectManager in the scene
         inspectManager = FindFirstObjectByType<ItemInspectManager>();
     }
 
-    /// <summary>
-    /// Fill the UI from an ItemData ScriptableObject.
-    /// Also trigger the 3D inspect system.
-    /// </summary>
     public void ShowItem(ItemData data)
     {
         if (data == null) return;
@@ -35,6 +31,7 @@ public class MenuDisplay : MonoBehaviour
         attributesText.text = data.attributes;
         gameexText.text = data.gameex;
         irlexText.text = data.irlex;
+        priceText.text = data.price;   // 👈 NEW
 
         // --- UI image ---
         if (data.image != null)
@@ -73,7 +70,6 @@ public class MenuDisplay : MonoBehaviour
         }
     }
 
-    // optional: clear the UI
     public void Clear()
     {
         nameText.text = "";
@@ -81,6 +77,7 @@ public class MenuDisplay : MonoBehaviour
         attributesText.text = "";
         gameexText.text = "";
         irlexText.text = "";
+        priceText.text = "";   // 👈 NEW
         itemImage.sprite = null;
         itemImage.enabled = false;
         linkButton.onClick.RemoveAllListeners();

@@ -19,9 +19,16 @@ MonoBehaviour:
     Loss: \u221240%"
   gameex: Core system for mission data. Protects against failures, reduces data loss,
     boosts research but drains heavy power and cooling.
-  irlex: almfgkamlgfml
+  irlex: "The Data Management System (DMS) aboard ISS acts as an on-board data hub
+    \u2014 interconnecting computers, instrumentation interfaces, payloads; storing,
+    processing, and organizing data; executing commands; controlling systems. In
+    the Russian segment it's called DMS-R, and it supports navigation, system control,
+    fault management, and time synchronization."
+  price: 'Size: 3x3
+
+    Cost: 600'
   link: https://drive.google.com/drive/folders/1zBt1tgpTpgdiAaKyhKa2OUm_8rMomrUx?usp=drive_link
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
-  prefab: {fileID: 4814140183114437194, guid: c9b73a9de66dda0439239ee01dee96a0, type: 3}
+  prefab: {fileID: 8623987067133086999, guid: 12481765de9dbfb4180365db94ab84d8, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

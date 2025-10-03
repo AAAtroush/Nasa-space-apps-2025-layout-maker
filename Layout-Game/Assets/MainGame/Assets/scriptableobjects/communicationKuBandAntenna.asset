@@ -19,6 +19,9 @@ MonoBehaviour:
   gameex: High-bandwidth antenna, necessary for long missions. Prevents major data
     corruption but eats more resources.
   irlex: almfgkamlgfml
+  price: 'Size: 3x1
+
+    Cost: 400'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 1461051613457735750, guid: 982a86191f9359c4a855822b22c39e95, type: 3}

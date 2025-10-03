@@ -12,11 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: kitchenHydroponicsFarm
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: Hydroponics Farm
+  irlname: ISS Veggie Plant Growth Station
+  attributes: "Attributes:\r\nPower: \u221250\r\nCooling: \u221230\r\nProtein: +150\r\nCarbs:
+    +300\r\nFat: +50\r\nWater: \u22123\r\nOxygen: +3\r\nWaste: \u22122\r\nStorage:
+    +2\r\nCrewRiskMod: \u22123\r\nNavRiskMod: \u22122\r\nResearch: +2\r\nMorale:
+    +4"
+  gameex: Provides renewable food, oxygen, and morale. High resource drain but critical
+    for sustainable missions.
   irlex: almfgkamlgfml
+  price: 'Size: 6x6
+
+    Cost: 1200'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 1057428459581030408, guid: f9a13e19638e5684caa04b3615d8788a, type: 3}

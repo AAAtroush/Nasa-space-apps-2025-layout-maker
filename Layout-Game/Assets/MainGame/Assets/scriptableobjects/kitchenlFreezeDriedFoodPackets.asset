@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: kitchenlFreezeDriedFoodPackets
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: Freeze-Dried Food Packets
+  irlname: ISS Freeze-Dried Food Packets
+  attributes: "Attributes:\r\nProtein: +80\r\nCarbs: +400\r\nFat: +100\r\nWaste:
+    +3\r\nCrewRiskMod: \u22121"
+  gameex: Basic rations. Provides balanced nutrition, generates waste. Essential
+    for survival.
   irlex: almfgkamlgfml
+  price: 'Size: 2x1
+
+    Cost: 150'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 4581634200310789065, guid: 9c371455498b6dd4b9eb5ca8980f9411, type: 3}

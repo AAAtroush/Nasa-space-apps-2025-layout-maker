@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: kitchenFoodRehydrationStation
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: Food Rehydration Station
+  irlname: ISS Food Rehydration System
+  attributes: "\rAttributes:\r\nPower: \u221210\r\nCooling: \u22124\r\nWaste: +2\r"
+  gameex: "Required to prepare dehydrated food. Doesn\u2019t add nutrition itself
+    but enables others to work.\r"
   irlex: almfgkamlgfml
+  price: 'Size: 2x1
+
+    Cost: 250'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 5974751989905584741, guid: 4b4357a1301d9694895dff0e7f7c8a7e, type: 3}

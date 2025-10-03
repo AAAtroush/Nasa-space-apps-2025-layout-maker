@@ -12,11 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: controlCommandWorkstation
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: Command Workstation
+  irlname: ISS Control Workstation
+  attributes: "Attributes:\r\nPower: \u221210\r\nCooling: \u22122\r\nNavRiskMod:
+    \u22122\r\nSystemRiskMod: \u22122\r\nResearch: +1\r\nSystem Failure: \u221215%"
+  gameex: 'Manual control station, protects against navigation and system risks.
+    Requires human operation.
+
+'
   irlex: almfgkamlgfml
+  price: 'Size: 2x1
+
+    Cost: 300'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 5985939540343310673, guid: 9d9a25321424d7b4791e1dc0cd48f8e3, type: 3}

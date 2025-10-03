@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: controlAICore
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: AI Core
+  irlname: 'ISS Multiplexer/Demultiplexer '
+  attributes: "Attributes:\r\nPower: \u221260\r\nCooling: \u221230\r\nSystemRiskMod:
+    \u22123\r\nCrewRiskMod: +3\r\nSystem Failure: \u221240%\r\n"
+  gameex: Improves system stability and reduces system failures but increases dependence
+    on automation (crew risk). Heavy drain.
   irlex: almfgkamlgfml
+  price: 'Size: 6x2
+
+    Cost: 1200'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 1274369155339558444, guid: a170ed2a924c230418db5b8a77bc26cf, type: 3}

@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: kitchenWaterDispenser
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: Water Dispenser
+  irlname: ISS Water Dispenser
+  attributes: "Power: \u22125\r\nCooling: \u22121\r\nWater: +5\r\nOxygen: +2\r\nCommsRiskMod:
+    \u22121\r\nNavRiskMod: \u22121\r\nCrewRiskMod: +1"
+  gameex: Provides water to crew. A staple system but not enough alone for survival.
   irlex: almfgkamlgfml
+  price: 'Size: 1x1
+
+    Cost: 150'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 3491083009888158720, guid: 5d54758a861c0824c96817251c44c605, type: 3}

@@ -14,6 +14,15 @@ TagManager:
   - Control
   - Kitchen
   - Living
+  - linkbutton
+  - irlex
+  - pricesize
+  - borders
+  - irlname
+  - name
+  - gameex
+  - attributes
+  - irlimage
   layers:
   - Default
   - TransparentFX

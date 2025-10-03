@@ -17,6 +17,9 @@ MonoBehaviour:
   attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
   gameex: apkdfplkldpafkasffakokga
   irlex: almfgkamlgfml
+  price: 'Size: 6x3
+
+    Cost: 800'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 3066524965882374176, guid: 1845825574729a9419282ff02ac2d3f9, type: 3}

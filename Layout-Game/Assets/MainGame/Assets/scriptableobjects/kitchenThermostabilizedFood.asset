@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: kitchenThermostabilizedFood
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: 'Thermostabilized Food '
+  irlname: 'ISS Thermostabilized Food '
+  attributes: "Attributes:\r\nProtein: +60\r\nCarbs: +200\r\nFat: +80\r\nWaste: +3\r\nCrewRiskMod:
+    \u22121\r\nMorale: +1"
+  gameex: 'Longer-lasting food supply. Keeps nutrition steady and morale decent.
+
+'
   irlex: almfgkamlgfml
+  price: 'Size: 2x1
+
+    Cost: 200'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 4631254103980287671, guid: e465d916407f2a34aa43b2a817a09c6d, type: 3}

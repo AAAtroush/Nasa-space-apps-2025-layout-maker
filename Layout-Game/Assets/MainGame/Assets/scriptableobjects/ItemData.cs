@@ -6,7 +6,7 @@ public class ItemData : ScriptableObject
     [Header("Basic Info")]
     public string itemname;     // in-game name
     public string irlname;      // real-life name
-    
+
     [TextArea(3, 6)]
     public string attributes;   // attributes text (multi-line)
 
@@ -15,6 +15,9 @@ public class ItemData : ScriptableObject
 
     [TextArea(3, 6)]
     public string irlex;        // real-life explanation
+
+    [TextArea(3, 6)]    
+    public string price;        // 👈 NEW: price text         // 👈 NEW: size text
 
     public string link;         // external link
 

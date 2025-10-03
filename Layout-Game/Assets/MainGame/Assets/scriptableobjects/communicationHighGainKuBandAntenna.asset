@@ -19,8 +19,11 @@ MonoBehaviour:
   gameex: High-end comms module, boosts research and comm reliability, but requires
     major resources.
   irlex: almfgkamlgfml
+  price: 'Size: 5x5
+
+    Cost: 900'
   link: www.discord.com
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: eff61f6c8532c0348bca837232c9d6ad, type: 3}
   prefab: {fileID: 693497799682003812, guid: 47d3603613f385548a726e1f4b5a4090, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

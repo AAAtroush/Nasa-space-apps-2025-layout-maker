@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: livingCEVISCycle
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: CEVIS Cycle
+  irlname: Cycle Ergometer with Vibration Isolation (CEVIS)
+  attributes: "Attributes:\r\nPower: \u221215\r\nCooling: \u22126\r\nExerciseSlots:
+    +1\r\nCrewRiskMod: \u22122\r\nResearch: +1"
+  gameex: Reduces crew health decline, provides exercise slot, suitable drain.
   irlex: almfgkamlgfml
+  price: "Size: 2x1\r\nCost: 500\r"
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 7888890429717027927, guid: 9e2b512760a71214f8ef48e566553aea, type: 3}

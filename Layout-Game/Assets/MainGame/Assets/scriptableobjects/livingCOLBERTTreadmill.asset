@@ -12,11 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: livingCOLBERTTreadmill
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
+  itemname: COLBERT Treadmill
+  irlname: Combined Operational Load-Bearing External Resistance Treadmill
+  attributes: "Attributes:\r\nPower: \u221220\r\nCooling: \u22128\r\nExerciseSlots:
+    +1\r\nCrewRiskMod: \u22122\r\nResearch: +1"
+  gameex: Cardio device that reduces long-term health risks. Adds morale and fitness
+    bonuses.
   irlex: almfgkamlgfml
+  price: 'Size: 3x1
+
+    Cost: 600'
   link: www.discord.com
   image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
   prefab: {fileID: 2077415814185544836, guid: 03353d3d2e4df004699e855e7f37d888, type: 3}
