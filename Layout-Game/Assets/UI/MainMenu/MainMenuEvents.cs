@@ -217,6 +217,7 @@ public class MainMenuEvents : MonoBehaviour
         catalougePanel.SetActive(false);
         cacpanel.SetActive(false);
         Guipanel.SetActive(false);
+        GameDif.SetActive(false);
 
 
         if (mainCamera != null)

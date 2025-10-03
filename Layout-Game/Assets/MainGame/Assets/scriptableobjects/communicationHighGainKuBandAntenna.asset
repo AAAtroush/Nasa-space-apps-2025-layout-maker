@@ -16,8 +16,10 @@ MonoBehaviour:
   irlname: Ku-band High-Gain Antenna on ISS
   attributes: "Attributes:\r\nPower: \u221240\r\nCooling: \u221215\r\nCommsRiskMod:
     \u22124\r\nResearch: +2\r\nData Loss: \u221215%\r\n"
-  gameex: High-end comms module, boosts research and comm reliability, but requires
-    major resources.
+  gameex: 'Long-range high-gain comms. Strong Data Loss prevention and research boost,
+    but heavy drain.
+
+'
   irlex: almfgkamlgfml
   price: 'Size: 5x5
 

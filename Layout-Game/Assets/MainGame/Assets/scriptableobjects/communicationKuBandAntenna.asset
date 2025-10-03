@@ -16,8 +16,8 @@ MonoBehaviour:
   irlname: Ku-band Antenna on ISS
   attributes: "Attributes:\r\nPower: \u221220\r\nCooling: \u22123\r\nCommsRiskMod:
     \u22123\r\nData Loss: \u221210%"
-  gameex: High-bandwidth antenna, necessary for long missions. Prevents major data
-    corruption but eats more resources.
+  gameex: High-bandwidth antenna. Strong defense against Data Loss events, higher
+    drain.
   irlex: almfgkamlgfml
   price: 'Size: 3x1
 

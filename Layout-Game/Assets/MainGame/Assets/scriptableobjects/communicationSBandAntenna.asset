@@ -16,10 +16,8 @@ MonoBehaviour:
   irlname: S-band Antenna on ISS
   attributes: "Attributes:\r\nPower: \u221215\r\nCooling: \u22122\r\nCommsRiskMod:
     \u22122\r\nData Loss: \u22127%"
-  gameex: 'A stronger option than UHF, balances higher resource drain with better
-    protection against comms issues.
-
-'
+  gameex: Stronger antenna than UHF. Reduces Data Loss with moderate power/cooling
+    use.
   irlex: almfgkamlgfml
   price: 'Size: 2x1
 

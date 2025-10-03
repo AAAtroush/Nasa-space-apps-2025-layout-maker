@@ -15,9 +15,9 @@ MonoBehaviour:
   itemname: AI Core
   irlname: 'ISS Multiplexer/Demultiplexer '
   attributes: "Attributes:\r\nPower: \u221260\r\nCooling: \u221230\r\nSystemRiskMod:
-    \u22123\r\nCrewRiskMod: +3\r\nSystem Failure: \u221240%\r\n"
-  gameex: Improves system stability and reduces system failures but increases dependence
-    on automation (crew risk). Heavy drain.
+    \u22123\r\nCrewRiskMod: +3\r\nSystem Failure: \u221240%"
+  gameex: "Automated brain of the station. Strongly reduces System Failures and Collisions,
+    but raises crew risk from dependency.\r"
   irlex: almfgkamlgfml
   price: 'Size: 6x2
 

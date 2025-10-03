@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: Command Workstation
   irlname: ISS Control Workstation
-  attributes: "Attributes:\r\nPower: \u221210\r\nCooling: \u22122\r\nNavRiskMod:
-    \u22122\r\nSystemRiskMod: \u22122\r\nResearch: +1\r\nSystem Failure: \u221215%"
-  gameex: 'Manual control station, protects against navigation and system risks.
-    Requires human operation.
+  attributes: "Attributes:\r\nPower: \u221210\r\nCooling: \u22122\r\nSystemRiskMod:
+    \u22122\r\nNavRiskMod: \u22122\r\nResearch: +1\r\nSystem Failure: \u221215%"
+  gameex: 'Manual control station, protects against navigation and system risks with
+    low cost.
 
 '
   irlex: almfgkamlgfml

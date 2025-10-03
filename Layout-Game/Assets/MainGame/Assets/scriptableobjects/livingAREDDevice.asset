@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: livingAREDDevice
   m_EditorClassIdentifier: 
   itemname: ARED Device
-  irlname: Advanced Resistive Exercise Device (ARED)
+  irlname: Advanced Resistive Exercise Device
   attributes: "Attributes:\r\nPower: \u221220\r\nCooling: \u22128\r\nExerciseSlots:
     +1\r\nCrewRiskMod: \u22122\r\nResearch: +1"
   gameex: Reduces crew health decline, provides exercise slot, boosts morale, modest
