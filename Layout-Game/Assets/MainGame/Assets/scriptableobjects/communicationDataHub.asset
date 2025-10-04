@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: Data Hub
   irlname: 'Data Hub (DMS) '
-  attributes: "Attributes:\nPower: \u221230\r\nCooling: \u221210\r\nStorage: +3\r\nResearch:
-    +3\r\nCommsRiskMod: \u22123\r\nSystemRiskMod: \u22122\r\nData Loss: \u221240%\r\nSystem
-    Failure: \u221210%"
-  gameex: Core data system. Reduces Data Loss and System Failures, adds research,
-    but heavy drain.
+  attributes: "Attributes:\r\nPower: \u221230\r\nCooling: \u221210\r\nStorage: +3\r\nCommsRiskMod:
+    \u22123\r\nSystemRiskMod: \u22122\r\nResearch: +3\r\nSystem Failure: \u221210%\r\nData
+    Loss: \u221240%"
+  gameex: Core system for mission data. Protects against failures, reduces data loss,
+    boosts research but drains heavy power and cooling.
   irlex: "The Data Management System (DMS) aboard ISS acts as an on-board data hub
     \u2014 interconnecting computers, instrumentation interfaces, payloads; storing,
     processing, and organizing data; executing commands; controlling systems. In

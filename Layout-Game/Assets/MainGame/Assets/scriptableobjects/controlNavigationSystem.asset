@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: 'Navigation System '
   irlname: ISS GPS/Star Tracker
-  attributes: "Attributes:\r\nPower: \u221250\r\nCooling: \u221240\r\nNavRiskMod:
-    \u22123\r\nSystemRiskMod: \u22123\r\nCollision: \u221230%\r\nResearch: +1"
-  gameex: Navigation system. Greatly reduces Collision risks, high resource demand.
+  attributes: "Power: \u221250\r\nCooling: \u221240\r\nNavRiskMod: \u22123\r\nSystemRiskMod:
+    \u22123\r\nResearch: +1\r\nCollision: \u221230%"
+  gameex: Navigation stability system, critical to avoid space collisions. Very resource-demanding.
   irlex: almfgkamlgfml
   price: 'Size: 6x6
 
