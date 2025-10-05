@@ -64,6 +64,7 @@ public class PlacementState : IBuildingState
         int roomID = -1;
         int index = -1;
 
+
         if (database.objectsData[selectedObjectIndex].ID <= 17) // If it's a room
         {
             // FIRST: Add to roomData to get the room ID

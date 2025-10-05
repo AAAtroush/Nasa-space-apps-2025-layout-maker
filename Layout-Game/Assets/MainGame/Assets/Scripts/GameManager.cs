@@ -19,6 +19,14 @@ public class GameManager : MonoBehaviour
     private enum GamePhase { RoomPlacement, RoomTagging, StationPlacement }
     private GamePhase currentPhase = GamePhase.RoomPlacement;
 
+    [SerializeField] GameObject roomControlButtons;
+
+    [SerializeField] GameObject uiForRooms;
+    [SerializeField] GameObject uiForObjects;
+
+    [SerializeField] GameObject finish;
+
+
     // Station placement tracking
     private List<int> availableRooms = new List<int>();
     private int currentRoomIndex = 0;
@@ -82,9 +90,13 @@ public class GameManager : MonoBehaviour
     {
         if (currentPhase == GamePhase.RoomTagging)
         {
+            finish.SetActive(true);
             roomTagManager.StopTaggingMode();
             currentPhase = GamePhase.StationPlacement;
 
+            roomControlButtons.SetActive(true);
+            uiForRooms.SetActive(false);
+            uiForObjects.SetActive(true);
             // Get available rooms from placement system
             availableRooms = placementSystem.GetAvailableRooms();
             if (availableRooms.Count > 0)

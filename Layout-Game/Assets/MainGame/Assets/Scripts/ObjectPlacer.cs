@@ -8,6 +8,8 @@ public class ObjectPlacer : MonoBehaviour
     [SerializeField]
     private GameManager gameManager;
 
+    [SerializeField] ObjectCollector objectCollector;
+
     public int PlaceObject(GameObject prefab, Vector3 position, bool isRoom = false, int roomID = -1)
     {
         if (gameManager.numberOfRooms == 10 && isRoom)
@@ -33,6 +35,8 @@ public class ObjectPlacer : MonoBehaviour
             roomController.InitializeAsPlacedRoom(roomID);
 
         }
+
+        objectCollector.MarkForUpdate();
 
         placedGameObjects.Add(newObject);
         return placedGameObjects.Count - 1;
