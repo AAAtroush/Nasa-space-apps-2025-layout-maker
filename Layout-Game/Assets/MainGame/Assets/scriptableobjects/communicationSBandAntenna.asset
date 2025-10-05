@@ -20,12 +20,15 @@ MonoBehaviour:
     protection against comms issues.
 
 '
-  irlex: almfgkamlgfml
+  irlex: "The S-band antenna on ISS is used for low- to moderate-rate communications
+    (voice, commands, basic data). \r\nIt is implemented via SASA units (S-band Antenna
+    Support Assemblies)\r\n that can steer in elevation and azimuth to track relay
+    satellites like TDRS.\r"
   price: 'Size: 2x1
 
     Cost: 300'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1YDCSBKdRbAR48ExqAJRUvN1vLo47EWhk?usp=drive_link
+  image: {fileID: 21300000, guid: a41a9b2af3ba5af419d62f81147faca3, type: 3}
   prefab: {fileID: 4782894934465940841, guid: 80a69d56b83585d40997a5a1e9a56333, type: 3}
   cameraDistance: 2
   overrideScale: {x: 350, y: 350, z: 350}

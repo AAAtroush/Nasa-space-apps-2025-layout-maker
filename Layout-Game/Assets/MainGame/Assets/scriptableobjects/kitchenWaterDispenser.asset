@@ -17,12 +17,17 @@ MonoBehaviour:
   attributes: "Power: \u22125\r\nCooling: \u22121\r\nWater: +5\r\nOxygen: +2\r\nCommsRiskMod:
     \u22121\r\nNavRiskMod: \u22121\r\nCrewRiskMod: +1"
   gameex: Provides water to crew. A staple system but not enough alone for survival.
-  irlex: almfgkamlgfml
+  irlex: 'The Water Dispenser on ISS is a device supplying purified water to the
+    crew for various uses: drinking, food rehydration, and possible experiments.
+    It typically incorporates valves, hoses, and safety mechanisms to control water
+    flow, preventing free-floating droplets in microgravity when dispensing.
+
+    -----------------------------------------------------------------------------------------'
   price: 'Size: 1x1
 
     Cost: 150'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1vP0YQWN3xiI9nnpJlBnyj6KVhHPVf4mM?usp=drive_link
+  image: {fileID: 21300000, guid: 056820cb5a102eb49a7c2dd7b534d635, type: 3}
   prefab: {fileID: 3491083009888158720, guid: 5d54758a861c0824c96817251c44c605, type: 3}
   cameraDistance: 2
   overrideScale: {x: 650, y: 650, z: 650}

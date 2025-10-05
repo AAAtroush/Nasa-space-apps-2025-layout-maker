@@ -20,12 +20,16 @@ MonoBehaviour:
     Requires human operation.
 
 '
-  irlex: almfgkamlgfml
+  irlex: "The Control Workstation (or workstation) onboard ISS is the human-machine
+    interface \u2014 used by crew to monitor systems, issue commands, intervene when
+    needed, and visualize system data through displays and interactive controls.
+    It includes displays, control panels (keyboards, buttons, menu systems), and
+    multiple graphical windows to show system status and health. "
   price: 'Size: 2x1
 
     Cost: 300'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1c892zWtF62Lsqq5Gs6zYwrMkthoHt9Jn?usp=drive_link
+  image: {fileID: 21300000, guid: 25d2e3fb87f322f4f9ccf578073af13f, type: 3}
   prefab: {fileID: 5985939540343310673, guid: 9d9a25321424d7b4791e1dc0cd48f8e3, type: 3}
   cameraDistance: 2
   overrideScale: {x: 450, y: 450, z: 450}

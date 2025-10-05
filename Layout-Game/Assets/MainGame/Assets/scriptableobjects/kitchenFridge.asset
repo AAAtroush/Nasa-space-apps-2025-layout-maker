@@ -14,16 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: Fridge
   irlname: ISS Refrigeration Unit
-  attributes: "Power: \u221220\r\nCooling: \u221215\r\nWater: \u22122\r\nWaste: +2\r\nTreatments:
-    +1\r\nSystemRiskMod: +1"
+  attributes: "Calories: 4000\nProtein: 100\r\nCarbs: 250\r\nFat: 120\nPower: \u221220\r\nCooling:
+    \u221215\r\nWater: \u22122\r\nWaste: +2\r\nTreatments: +1\r\nSystemRiskMod: +1"
   gameex: Preserves food and medicine. Essential for long trips, but adds heavy cooling
     cost.
-  irlex: almfgkamlgfml
+  irlex: "The Refrigeration Unit on ISS is used to cool certain foods, beverages,
+    or materials that require reduced temperature. However, not all food is refrigerated
+    \u2014 the majority is stored at ambient station temperature. The refrigerator
+    supports perishable or sensitive items and experiments needing temporary cooling."
   price: 'Size: 6x3
 
     Cost: 600'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1U7bdbYh-n7rCZTcIQ1PTDypWSPnqV8gW?usp=drive_link
+  image: {fileID: 21300000, guid: 341e9454776b8cb40bf7bb697a8e48f3, type: 3}
   prefab: {fileID: 8497350510670593161, guid: b2d771ce1c1426444b232457059044e8, type: 3}
   cameraDistance: 2
   overrideScale: {x: 180, y: 180, z: 180}

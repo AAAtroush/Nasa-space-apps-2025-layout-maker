@@ -12,16 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: powerFusionReactor
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Fusion Reactor
+  irlname: Fusion Reactor Concept
+  attributes: "Attributes:\r\nPower: +500\r\nCooling: \u2212400\r\nSystemRiskMod:
+    +3\r\nNavRiskMod: +5\r\nCrewRiskMod: +4\r\nPower Loss: \u221230%\r\nFire Hazard:
+    +4%"
+  gameex: 'Huge energy source. Prevents Power Loss but adds big system and crew risks.
+
+
+
+'
+  irlex: 'Fusion reactor concepts aim to harness nuclear fusion (merging light atomic
+    nuclei) to generate large power outputs, with fewer radioactive byproducts than
+    fission reactors. Some designs involve aneutronic fusion (fusion without/negligible
+    neutrons) for cleaner operation. '
   price: 'Size: 6x6
 
     Cost: 2500'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1DWMDk77VhOlRY6J1C_k-CG7nOb1JO-11?usp=drive_link
+  image: {fileID: 21300000, guid: 411351515ea594844ad1708010cadae6, type: 3}
   prefab: {fileID: 2434755424336101900, guid: 663fe7c36a65128459b80c084144a843, type: 3}
   cameraDistance: 2
   overrideScale: {x: 150, y: 150, z: 150}

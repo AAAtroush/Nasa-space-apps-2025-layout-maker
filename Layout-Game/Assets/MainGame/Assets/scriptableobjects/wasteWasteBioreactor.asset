@@ -12,16 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: wasteWasteBioreactor
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Waste Bioreactor
+  irlname: Bioreactor Concept
+  attributes: "Attributes:\r\nPower: \u221260\r\nCooling: \u221260\r\nOxygen: \u22121\r\nResearch:
+    +1\r\nContamination: \u221260%"
+  gameex: Biological waste processor. Strongly reduces Contamination but risky.
+  irlex: 'a waste bioreactor offers advantages: reducing resupply mass, less outbound
+    waste, improved closed-loop sustainability. Challenges include biohazards, odor
+    control, maintaining environmental parameters (temperature, moisture, microgravity),
+    containment, and cost of implementation and maintenance.'
   price: 'Size: 6x3
 
     Cost: 1200'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1TBOZj4RPdXTipKcWNLh3l_XvbGMarFKt?usp=drive_link
+  image: {fileID: 21300000, guid: f0b56845ae3e6fd42a44705195c1d58c, type: 3}
   prefab: {fileID: 115176838827315273, guid: c8578a2af8c71a74db7b82fbbb1b50cf, type: 3}
   cameraDistance: 2
   overrideScale: {x: 150, y: 150, z: 150}

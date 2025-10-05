@@ -14,17 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: 'Thermostabilized Food '
   irlname: 'ISS Thermostabilized Food '
-  attributes: "Attributes:\r\nProtein: +60\r\nCarbs: +200\r\nFat: +80\r\nWaste: +3\r\nCrewRiskMod:
-    \u22121\r\nMorale: +1"
+  attributes: "Attributes:\r\nCalories: 1400\nProtein: +60\r\nCarbs: +200\r\nFat:
+    +80\r\nWaste: +3\r\nCrewRiskMod: \u22121\r\nMorale: +1"
   gameex: 'Longer-lasting food supply. Keeps nutrition steady and morale decent.
 
 '
-  irlex: almfgkamlgfml
+  irlex: "Thermostabilized food refers to foods treated at a specific temperature
+    and duration to eliminate harmful microbes while preserving as much nutrition
+    and flavor as possible. They are then sealed in barrier pouches. This technique
+    is applied for foods that can\u2019t be fully freeze-dried (e.g. sauces, certain
+    meats). On ISS, such foods are stored (often at ambient temperature) and heated
+    or prepared for consumption when needed."
   price: 'Size: 2x1
 
     Cost: 200'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1Y5ltPpoR55Ra6GO07ZbIZ_S3VvImtw0g?usp=drive_link
+  image: {fileID: 21300000, guid: 4e73d8d2f1f660c4bbac3d0533111384, type: 3}
   prefab: {fileID: 4631254103980287671, guid: e465d916407f2a34aa43b2a817a09c6d, type: 3}
   cameraDistance: 2
   overrideScale: {x: 500, y: 500, z: 500}

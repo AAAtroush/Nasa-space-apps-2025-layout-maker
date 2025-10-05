@@ -28,7 +28,7 @@ MonoBehaviour:
 
     Cost: 600'
   link: https://drive.google.com/drive/folders/1zBt1tgpTpgdiAaKyhKa2OUm_8rMomrUx?usp=drive_link
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  image: {fileID: 21300000, guid: ccd9e8e1184ceb041a37c51cf95796ba, type: 3}
   prefab: {fileID: 8623987067133086999, guid: 12481765de9dbfb4180365db94ab84d8, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

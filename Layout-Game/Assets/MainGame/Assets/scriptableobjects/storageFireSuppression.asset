@@ -12,16 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: storageFireSuppression
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Fire Suppression
+  irlname: Fire Suppression System
+  attributes: "Attributes:\r\nPower: \u22125\r\nCooling: \u22122\r\nSystemRiskMod:
+    +5\r\nFire Hazard: \u221280%"
+  gameex: Essential safety system. Prevents Fire Hazard events.
+  irlex: "The fire suppression system aboard ISS comprises detection and suppression
+    components:\r\nDetection: Photoelectric smoke detectors are used. They detect
+    light scattering or obscuration by smoke particles. These detectors are often
+    located in ventilation ducts or airway passages to sample air. \r\nSuppression:
+    When a fire is detected, suppression may use:"
   price: 'Size: 1x1
 
     Cost: 250'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1R3pCWzpD8aMk0KgqvzGYPbAT_BUXPND_?usp=drive_link
+  image: {fileID: 21300000, guid: 3bdfb0c0b59abbc4bab06db2a034d424, type: 3}
   prefab: {fileID: 3076132864146641268, guid: d32c1a5f0bdf0db4e9d1f878a14e5a5b, type: 3}
   cameraDistance: 2
   overrideScale: {x: 700, y: 700, z: 700}

@@ -12,16 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: thermalHeatExchanger
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: 'Heat Exchanger '
+  irlname: SS Heat Exchanger
+  attributes: "Attributes:\r\nPower: \u221220\r\nCooling: +200\r\nEnvRiskMod: \u22122\r\nOverheat
+    Spike: \u221220%"
+  gameex: Dissipates heat. Reduces Overheat events.
+  irlex: 'The IFHX is essential for ensuring efficient thermal coupling between the
+    internal and external systems without significant temperature mismatches or leaks.
+    Multiple IFHX units are distributed across ISS pressurized modules (labs, nodes,
+    etc.) to interface each internal module with the external thermal control system. '
   price: 'Size: 6x3
 
     Cost: 600'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1nPo6NZtHkobZY91LzGLMz9-rls6ph4eW?usp=drive_link
+  image: {fileID: 21300000, guid: ab2d99bae081a404eb2fa1134060b7f0, type: 3}
   prefab: {fileID: 8655602401701703174, guid: 1623be4860f92a74ca75526c49270787, type: 3}
   cameraDistance: 2
   overrideScale: {x: 150, y: 150, z: 150}

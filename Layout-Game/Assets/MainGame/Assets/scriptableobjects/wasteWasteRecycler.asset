@@ -12,16 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: wasteWasteRecycler
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Waste Recycler
+  irlname: ISS Waste System
+  attributes: "Attributes:\r\nPower: \u221240\r\nCooling: \u221240\r\nWaste: +4\r\nContamination:
+    \u221240%"
+  gameex: Recycles waste. Strongly lowers Contamination risk.
+  irlex: " The Waste and Hygiene Compartment (WHC): the toilet + hygiene components,
+    collecting both liquid and solid wastes. \r\n Urine Transfer System (UTS): transports
+    urine from the WHC to the water processing / recycle units. \r\n Fecal Storage
+    System (FSS): solid waste is collected, sealed in containers (fecal canisters),
+    stored until removed via departing spacecraft. \r\n"
   price: 'Size: 8x4
 
     Cost: 1000'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/13KA5RbM5rsjM0gFAUUE7-zUFIwJ4AYzP?usp=drive_link
+  image: {fileID: 21300000, guid: e51ae6bdf4ad3de4486f9c1f012b04c6, type: 3}
   prefab: {fileID: 3850312513986269576, guid: a6f3f8f5660d67643a7285b66830f3f4, type: 3}
   cameraDistance: 2
   overrideScale: {x: 150, y: 150, z: 150}

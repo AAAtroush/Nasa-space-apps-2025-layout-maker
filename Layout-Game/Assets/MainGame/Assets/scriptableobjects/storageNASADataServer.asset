@@ -12,16 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: storageNASADataServer
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: NASA Data Server
+  irlname: Mission Data Server
+  attributes: "Attributes:\r\nPower: \u221235\r\nCooling: \u221230\r\nResearch: +2\r\nData
+    Loss: \u221250%\r\n"
+  gameex: Stores data safely. Prevents Data Loss events.
+  irlex: 'A Mission Data Server would be a physical/software unit onboard a spacecraft
+    or space station that centralizes data management: receiving telemetry and payload
+    data, short-term storage, pre-processing, command dispatching, and routing data
+    to Earth or other systems.
+
+    In space, such a server must be radiation-hardened,
+    energy-efficient, tolerant to communication interruptions, and capable of autonomous
+    software updates (self-healing, rollback).
+
+'
   price: 'Size: 6x3
 
     Cost: 900'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1MOHHvavNllTcRCYnDXz_OoAXUohYrczM?usp=drive_link
+  image: {fileID: 21300000, guid: 4d23c64d3da16bf48a3d6e882295ef2d, type: 3}
   prefab: {fileID: 1878487967795951266, guid: ab3065d702e2c7e43957c74049dee7de, type: 3}
   cameraDistance: 2
   overrideScale: {x: 100, y: 100, z: 100}

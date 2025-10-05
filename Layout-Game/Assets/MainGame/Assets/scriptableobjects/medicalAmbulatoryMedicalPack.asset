@@ -12,16 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: medicalAmbulatoryMedicalPack
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: 'Ambulatory Medical Pack '
+  irlname: 'Portable Med Kit '
+  attributes: "Size: 2x1\r\nPrice: 400\r\nAttributes:\r\nPower: \u221210\r\nCooling:
+    \u22123\r\nTreatments: +2\r\nIllness: \u221225%\r\n"
+  gameex: Field med kit. Reduces Illness risks.
+  irlex: 'The ISS portable medical kit (Ambulatory Medical Kit) contains the basics:
+    first aid supplies, wound care tools, essential medications, and simple diagnostic
+    aids. It is used for minor emergencies or to provide immediate care before remote
+    consultation or evacuation.'
   price: 'Size: 2x1
 
-    Cost: 400'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+    Price: 400'
+  link: https://drive.google.com/drive/folders/1-jVhUYLZzYFsjoBuAVPgBrxq5bUObBtm?usp=drive_link
+  image: {fileID: 21300000, guid: 0116aabdd93f24c4b9bc9042686c2ab9, type: 3}
   prefab: {fileID: 6932724853979261138, guid: 35a5226ec78a50e41a0f1a0c93f77f94, type: 3}
   cameraDistance: 2
   overrideScale: {x: 500, y: 500, z: 500}

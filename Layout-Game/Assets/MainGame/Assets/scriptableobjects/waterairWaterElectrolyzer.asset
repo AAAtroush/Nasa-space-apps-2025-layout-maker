@@ -12,16 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: waterairWaterElectrolyzer
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Water Electrolyzer
+  irlname: Partial Electrolysis System
+  attributes: "Attributes:\r\nPower: \u221215\r\nCooling: \u221210\r\nWater: \u22122\r\nOxygen:
+    +5\r\nWaste: +5\r\nCrewRiskMod: \u22122\r\nResearch: +1"
+  gameex: Splits water into oxygen. Prevents Oxygen shortage but drains water.
+  irlex: "\u201CPartial electrolysis\u201D in ISS terms reflects that O\u2082 generation
+    by electrolysis is integrated with CO\u2082 reduction (the Sabatier reactor).
+    Electrolysis produces H\u2082; some H\u2082 reacts with cabin CO\u2082 in Sabatier
+    to produce H\u2082O (recycled) and CH\u2084 (vented), so the oxygen/ hydrogen
+    loop is not fully closed. Sabatier improves resource recovery but does not recover
+    all hydrogen \u2014 additional technologies (e.g., methane-to-hydrogen recovery)
+    are needed to fully close the loop."
   price: 'Size: 2x1
 
     Cost: 400'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1yriaSPOKOMjLaCXk6rAct1Kv8MZrcCCz?usp=drive_link
+  image: {fileID: 21300000, guid: 0a658bd68c8ef7f4b849c9b4451df2ce, type: 3}
   prefab: {fileID: 6808635323091634699, guid: 0c82a6920fb2a16429a84813ebb0b7a0, type: 3}
   cameraDistance: 2
   overrideScale: {x: 500, y: 500, z: 500}

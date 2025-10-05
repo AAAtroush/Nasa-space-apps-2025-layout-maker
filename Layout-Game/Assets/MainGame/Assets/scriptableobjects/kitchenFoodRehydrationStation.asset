@@ -14,15 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: Food Rehydration Station
   irlname: ISS Food Rehydration System
-  attributes: "\rAttributes:\r\nPower: \u221210\r\nCooling: \u22124\r\nWaste: +2\r"
+  attributes: "\rAttributes:\nCalories: 2000\nProtein: 80\r\nCarbs: 90\r\nFat: 60\r\nPower:
+    \u221210\r\nCooling: \u22124\r\nWaste: +2\r"
   gameex: "Required to prepare dehydrated food. Doesn\u2019t add nutrition itself
     but enables others to work.\r"
-  irlex: almfgkamlgfml
+  irlex: The Food Rehydration System is the mechanism by which water is injected
+    into freeze-dried food packets to restore them to edible form. The packaging
+    typically includes special valves that allow water injection while preventing
+    leaks or air escape and is designed to distribute fluid evenly. After the water
+    is added, the food sits to absorb it and may be heated or stirred to enhance
+    rehydration.
   price: 'Size: 2x1
 
     Cost: 250'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/13aSh_2Fi4gzBKf63fW2JFxO5u6Mb6HF6?usp=drive_link
+  image: {fileID: 21300000, guid: b558416af6a2f51489296307b2db5802, type: 3}
   prefab: {fileID: 5974751989905584741, guid: 4b4357a1301d9694895dff0e7f7c8a7e, type: 3}
   cameraDistance: 2
   overrideScale: {x: 500, y: 500, z: 500}

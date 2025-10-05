@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: storageRadiationShielding
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Radiation Shielding
+  irlname: Radiation Panels
+  attributes: "Attributes:\r\nRadiation Storm: \u221260%\r\nEnvRiskMod: \u22124"
+  gameex: Shields crew from Radiation Storm events.
+  irlex: "\u201CRadiation Panels\u201D might refer to shielding panels used to attenuate
+    cosmic radiation or monitoring panels/devices that measure radiation levels.
+    On the ISS, there are environmental radiation monitors that track cosmic rays
+    and charged particle flux to safeguard the crew."
   price: 'Size: 5x5
 
     Cost: 1500'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1HpSSrQpdIHBikJLGihMlf84WiYTOX-Ir?usp=drive_link
+  image: {fileID: 21300000, guid: 7d7e4113d4fd1f943a51236e37f567eb, type: 3}
   prefab: {fileID: 4486253533926014139, guid: 49c725de9912f1e4ebfca57ecd3a90d7, type: 3}
   cameraDistance: 2
   overrideScale: {x: 300, y: 300, z: 300}

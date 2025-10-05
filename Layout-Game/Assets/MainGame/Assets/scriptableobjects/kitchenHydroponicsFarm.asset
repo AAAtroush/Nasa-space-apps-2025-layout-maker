@@ -20,12 +20,17 @@ MonoBehaviour:
     +4"
   gameex: Provides renewable food, oxygen, and morale. High resource drain but critical
     for sustainable missions.
-  irlex: almfgkamlgfml
+  irlex: "The Veggie (Vegetable Production System) is a plant growth facility on
+    ISS used to grow fresh vegetables (e.g. lettuce) under microgravity. It uses
+    \u201Cplant pillows\u201D containing seeds and nutrients, and provides water
+    and light within a module mounted in an EXPRESS rack with LED lighting to help
+    them grow,Nutrient delivery via systems like PONDS (Passive Nutrient Delivery
+    System), which uses wicking between a nutrient reservoir and growth medium. "
   price: 'Size: 6x6
 
     Cost: 1200'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1J29vYLA8sK42F2ETLu0Mq-XQKEPD9SwM?usp=drive_link
+  image: {fileID: 21300000, guid: b3644a109c8353b418b89e2a7be2aba4, type: 3}
   prefab: {fileID: 1057428459581030408, guid: f9a13e19638e5684caa04b3615d8788a, type: 3}
   cameraDistance: 2
   overrideScale: {x: 125, y: 125, z: 125}

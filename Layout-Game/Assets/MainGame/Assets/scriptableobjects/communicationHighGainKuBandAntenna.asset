@@ -18,12 +18,16 @@ MonoBehaviour:
     \u22124\r\nResearch: +2\r\nData Loss: \u221215%\r\n"
   gameex: High-end comms module, boosts research and comm reliability, but requires
     major resources.
-  irlex: almfgkamlgfml
+  irlex: The Ku-band high-gain antennas (SGANTs) on ISS are used to transmit large
+    volumes of data (video, experiments, imagery) to Earth at high speed. They are
+    steerable (gimbaled) to aim toward relay satellites (e.g. TDRS). Structural elements
+    like solar panels or thermal radiators may partially block the antenna beam and
+    degrade performance.
   price: 'Size: 5x5
 
     Cost: 900'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: eff61f6c8532c0348bca837232c9d6ad, type: 3}
+  link: https://drive.google.com/drive/folders/1OiG-CkzwmCOZGuJ-S3-viFfcptdsCn0z?usp=drive_link
+  image: {fileID: 21300000, guid: 141e68cf19d47cd42b54bcd7d8617c75, type: 3}
   prefab: {fileID: 693497799682003812, guid: 47d3603613f385548a726e1f4b5a4090, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

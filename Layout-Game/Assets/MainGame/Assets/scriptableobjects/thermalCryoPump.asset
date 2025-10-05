@@ -12,16 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: thermalCryoPump
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Cryo Pump
+  irlname: ISS Ammonia Pump
+  attributes: "Attributes:\r\nPower: \u221230\r\nCooling: +300\r\nSystemRiskMod:
+    \u22123\r\nOverheat Spike: \u221220%"
+  gameex: Cooling system. Prevents Overheat Spike events.
+  irlex: "The Ammonia Pump Module is a core component in the ISS\u2019s External
+    Active Thermal Control System (EATCS). Its function is to pump liquid ammonia
+    through the external cooling loops, transferring heat from the internal systems
+    into heat exchangers and then to radiator panels, which reject the heat into
+    space. \r\nThe module houses a canned motor cartridge pump, which avoids rotary
+    seals (thus reducing leak risk), along with an accumulator and control valves
+    in the Pump and Control Valve Package (PCVP). In case of failure, the unit is
+    designed to be replaced via an Extravehicular Activity (EVA). "
   price: 'Size: 6x2
 
     Cost: 700'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1FEv3Q_DWo3OdtfHdsY4HfhvquEpru93M?usp=drive_link
+  image: {fileID: 21300000, guid: f3baf43b0128fe5458044a9c9995ff60, type: 3}
   prefab: {fileID: 9053706979078427868, guid: 381452162ef561f469e10fbe4156a12a, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

@@ -12,16 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: waterairOxygenGenerationSystem
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: 'Oxygen Generation System '
+  irlname: ISS OGS
+  attributes: "Attributes:\r\nPower: \u221280\r\nCooling: \u221250\r\nWater: +3\r\nOxygen:
+    +2\r\nResearch: +1"
+  gameex: Produces oxygen and water. Prevents Oxygen shortages.
+  irlex: "The ISS Oxygen Generation Assembly (OGA) electrolyzes water to produce
+    breathable O\u2082 and H\u2082. Nominal production is about 5.4 kg/day in standard
+    cyclical operation; higher selectable production modes exist. The OGA is a core
+    component of the station\u2019s ECLSS and has been the subject of upgrades (Advanced
+    OGA) to improve reliability and reduce maintenance"
   price: 'Size: 6x6
 
     Cost: 1500'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1kE7zv5uW9osEZrJ8pnxTYdBfYEOS2vFK?usp=drive_link
+  image: {fileID: 21300000, guid: 6fb58244c094e0145940b9297ba6ad74, type: 3}
   prefab: {fileID: 7139104948810061325, guid: b6394930b817adf41b9631e55a6bbe20, type: 3}
   cameraDistance: 2
   overrideScale: {x: 75, y: 75, z: 75}

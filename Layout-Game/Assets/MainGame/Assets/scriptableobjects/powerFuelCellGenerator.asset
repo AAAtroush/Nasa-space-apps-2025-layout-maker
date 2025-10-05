@@ -12,16 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: powerFuelCellGenerator
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Fuel Cell Generator
+  irlname: Shuttle Fuel Cell
+  attributes: "Attributes:\r\nPower: +120\r\nCooling: \u221240\r\nWaste: +3\r\nStorage:
+    +4\r\nSystemRiskMod: \u22121\r\nEnvRiskMod: \u22123\r\nPower Loss: \u221220%\r\nFire
+    Hazard: +4%"
+  gameex: 'Backup generator. Reduces Power Loss but adds Fire Hazard.
+
+'
+  irlex: 'Fuel cells were used on the Space Shuttle to generate electricity, water,
+    and heat by combining hydrogen with oxygen. However, there is no reliable source
+    confirming that the ISS currently uses fuel cells as a backup power source in
+    the same way. There may be studies or proposals, but no confirmed deployed system
+    as of the information I found.
+
+    
+
+'
   price: 'Size: 6x2
 
     Cost: 900'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1UKxUk_r3h0MsadWSMtt9fbWyVMFXW6EO?usp=drive_link
+  image: {fileID: 21300000, guid: 482943630d604d74b945139fcf5194f7, type: 3}
   prefab: {fileID: 6119553864337952358, guid: 2cee1d42ae1b9654889cdab6fa327b73, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

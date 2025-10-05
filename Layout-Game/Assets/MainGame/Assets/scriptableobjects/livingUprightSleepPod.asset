@@ -20,12 +20,18 @@ MonoBehaviour:
     crew health and morale.
 
 '
-  irlex: 
+  irlex: "Crew aboard the ISS use sleeping bags that are affixed to the walls inside
+    sleep stations via mounting straps or fixtures, preventing the bag from drifting
+    in microgravity. The bag offers a private sleeping environment, includes an interior
+    liner, and may incorporate mild ventilation around the head area to circulate
+    air. Its purpose is to provide a stable sleeping condition, prevent floating
+    during sleep, and ensure a dedicated space with lighting and thermal control
+    for rest.\r"
   price: 'Size: 1x1
 
     Cost: 400'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1hOfc3446hnL184HEXhGDxOSjBM9SE56-?usp=drive_link
+  image: {fileID: 21300000, guid: 8a2ba81059ede494fa422337483305c2, type: 3}
   prefab: {fileID: 8967499064860973039, guid: d5b3cef67bfe05a47bcd350dd161cd8f, type: 3}
   cameraDistance: 2
   overrideScale: {x: 350, y: 350, z: 350}

@@ -17,10 +17,16 @@ MonoBehaviour:
   attributes: "Attributes:\r\nPower: \u221215\r\nCooling: \u22126\r\nExerciseSlots:
     +1\r\nCrewRiskMod: \u22122\r\nResearch: +1"
   gameex: Reduces crew health decline, provides exercise slot, suitable drain.
-  irlex: almfgkamlgfml
+  irlex: "The CEVIS (Cycle Ergometer with Vibration Isolation and Stabilization System)
+    is a stationary bike equipped with vibration isolation to prevent exercise forces
+    from transmitting to the station\u2019s structure. It is used for aerobic (cardiovascular)
+    training aboard ISS. \r\nIts workload range is approximately 25 to 350 watts,
+    with pedal speeds from ~30 to 120 rpm. \r\nThe device provides real-time metrics
+    such as pedaling speed, workload, elapsed time, and heart rate to guide exercise
+    sessions."
   price: "Size: 2x1\r\nCost: 500\r"
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1GXz-Clhuma32N0Msme8KQrGE9Gf3Lwrb?usp=drive_link
+  image: {fileID: 21300000, guid: 49ff9b1dbd10dec45a68faa2eabe9255, type: 3}
   prefab: {fileID: 7888890429717027927, guid: 9e2b512760a71214f8ef48e566553aea, type: 3}
   cameraDistance: 2
   overrideScale: {x: 450, y: 450, z: 450}

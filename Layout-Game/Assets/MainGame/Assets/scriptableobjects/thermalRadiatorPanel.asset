@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: thermalRadiatorPanel
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
-  price: 'Size: 8x4
-
-    Cost: 1000'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  itemname: 'Radiator Panel '
+  irlname: ISS Radiator Panel
+  attributes: "Attributes:\r\nCooling: +600\r\nEnvRiskMod: \u22125\r\nOverheat Spike:
+    \u221240%"
+  gameex: Major heat sink. Greatly reduces Overheat risks.
+  irlex: 'The Radiator Panels on ISS are the surfaces that radiate the excess heat
+    to space after the ammonia coolant carries it from the internal systems via heat
+    exchangers. These radiator panels are made from materials with high infrared
+    emissivity and low solar absorption, frequently painted white to minimize solar
+    heating. '
+  price: https://drive.google.com/drive/folders/1svHQB31umV5CZ9gh8nG9yZz1dzORSWoV?usp=drive_link
+  link: https://drive.google.com/drive/folders/1svHQB31umV5CZ9gh8nG9yZz1dzORSWoV?usp=drive_link
+  image: {fileID: 21300000, guid: 07bfc458e8df52e4d87b2c525d4fab04, type: 3}
   prefab: {fileID: 4744580058289918867, guid: 1772a86f74f35274d9fd4d53536ff2df, type: 3}
   cameraDistance: 2
   overrideScale: {x: 150, y: 150, z: 150}

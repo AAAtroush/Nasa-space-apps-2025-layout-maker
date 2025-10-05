@@ -18,12 +18,18 @@ MonoBehaviour:
     +1\r\nCrewRiskMod: \u22122\r\nResearch: +1"
   gameex: Reduces crew health decline, provides exercise slot, boosts morale, modest
     drain.
-  irlex: almfgkamlgfml
+  irlex: "The Advanced Resistive Exercise Device (ARED) is an advanced resistance
+    machine designed for use in microgravity onboard the ISS. It uses vacuum pistons
+    and mechanical systems (flywheel and cable) to simulate weight-bearing exercises
+    (squats, deadlifts, calf raises, etc.). \r\nIts advantage lies in providing a
+    more constant resistance throughout the motion path (not relying on gravity),
+    and its resistance levels are adjustable for different astronauts, with data
+    logging of performance. \r"
   price: 'Size: 2x1
 
     Cost: 700'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1Et8GuZGOB2gGD0fc_uC4FYKyW6FV0yIR?usp=drive_link
+  image: {fileID: 21300000, guid: fb36434ef11b19b43bfff708077fdb30, type: 3}
   prefab: {fileID: 7310387491319802950, guid: fab032df61615c3489becd67ef2cde6c, type: 3}
   cameraDistance: 2
   overrideScale: {x: 500, y: 500, z: 500}

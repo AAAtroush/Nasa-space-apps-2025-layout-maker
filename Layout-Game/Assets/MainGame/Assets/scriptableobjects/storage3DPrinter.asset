@@ -12,16 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: storage3DPrinter
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: 3D Printer
+  irlname: ISS 3D Printer
+  attributes: "Attributes:\r\nPower: \u221220\r\nCooling: \u221210\r\nStorage: +4\r\nSystemRiskMod:
+    \u22122\r\nNavRiskMod: \u22123\r\nResearch: +4\r\nMorale: +1\r\nSystem Failure:
+    \u221210%"
+  gameex: Prints spare parts. Lowers System Failure chance and boosts research.
+  irlex: "The 3D printer aboard ISS is part of NASA\u2019s 3D Printing in Zero G
+    experiment and the station\u2019s Additive Manufacturing Facility (AMF). The
+    first plastic 3D printer was sent in 2014 to build tools like wrenches and brackets.
+    \r\nMore recently, ESA sent a metal 3D printer to ISS. This metal printer deposits
+    stainless steel wire melted by a laser, in a controlled, sealed chamber (often
+    with nitrogen environment to prevent oxidation). \r\nThe purpose is to allow
+    on-demand manufacture of spare parts and tools, reducing reliance on Earth resupply,
+    and supporting sustainability in deep-space missions.\r\n"
   price: 'Size: 3x3
 
     Cost: 400'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1vwFkBeW8APToOTiqmH4CtK8p3qiz-CIU?usp=drive_link
+  image: {fileID: 21300000, guid: ea3b6e85c66584f4ba7213a3d7012450, type: 3}
   prefab: {fileID: 6299190019069524383, guid: 60cd7dcbc15a4b3419488eb9dc07926c, type: 3}
   cameraDistance: 2
   overrideScale: {x: 300, y: 300, z: 300}

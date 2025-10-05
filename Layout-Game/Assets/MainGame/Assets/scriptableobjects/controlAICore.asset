@@ -18,12 +18,16 @@ MonoBehaviour:
     \u22123\r\nCrewRiskMod: +3\r\nSystem Failure: \u221240%\r\n"
   gameex: Improves system stability and reduces system failures but increases dependence
     on automation (crew risk). Heavy drain.
-  irlex: almfgkamlgfml
+  irlex: The MDMs (Multiplexer / Demultiplexer units) aboard the ISS are data aggregation
+    and distribution modules. They collect multiple streams of data (from sensors,
+    subsystems, payloads) and route them to the appropriate processors or actuators.
+    They are core elements of the Command & Data Handling (C&DH) architecture in
+    the U.S. segment of the station.
   price: 'Size: 6x2
 
     Cost: 1200'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1WVPhgw4b2jq3kVPrXRJjEGFuMP6ex-ml?usp=drive_link
+  image: {fileID: 21300000, guid: 282ac67422d379641b52acd7335ac771, type: 3}
   prefab: {fileID: 1274369155339558444, guid: a170ed2a924c230418db5b8a77bc26cf, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

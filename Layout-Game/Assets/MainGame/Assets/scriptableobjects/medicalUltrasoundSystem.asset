@@ -12,16 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: medicalUltrasoundSystem
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Ultrasound System
+  irlname: Full Ultrasound
+  attributes: "Attributes:\r\nPower: \u221220\r\nCooling: \u22126\r\nTreatments:
+    +4\r\nCrewRiskMod: \u22121\r\nNavRiskMod: +2\r\nIllness: \u221215%"
+  gameex: Advanced medical system. Improves Illness outcomes but adds system complexity.
+  irlex: "The ultrasound system on ISS is the primary medical imaging method available
+    aboard. It\u2019s used for cardiac, vascular, abdominal, musculoskeletal, thoracic
+    examinations, among others. \r\nThere is a fixed ultrasound suite in the Human
+    Research Facility which includes high-definition capabilities, and has real-time
+    video downlink to allow remote guidance by Earth-based medical experts. \r\nPortable
+    ultrasound units (e.g. Butterfly IQ, Orcheo Lite TE) are also tested to enable
+    more flexible use, with lighter weight and reduced power consumption, while still
+    allowing remote support.\r"
   price: 'Size: 2x2
 
-    Cost: 700'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+    Price: 700'
+  link: https://drive.google.com/drive/folders/1SV42H0Rbn4YEnzuTuVhwbBVPnPPyg7Ee?usp=drive_link
+  image: {fileID: 21300000, guid: 060a933fb21e59f44a2d97843ce91d0b, type: 3}
   prefab: {fileID: 7865223339181761522, guid: a22023485a1b32f4db0a71fd1632a3b9, type: 3}
   cameraDistance: 2
   overrideScale: {x: 500, y: 500, z: 500}

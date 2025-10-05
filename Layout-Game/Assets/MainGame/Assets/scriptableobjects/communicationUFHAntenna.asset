@@ -18,12 +18,16 @@ MonoBehaviour:
     \u22122\r\nData Loss: \u22125%"
   gameex: Provides basic comms. Cheap, small, reduces risk of losing data but adds
     a minor power/cooling drain.
-  irlex: almfgkamlgfml
+  irlex: "The UHF system on ISS is used for communication between spacecraft and
+    astronauts during extravehicular activity (EVA) or between nearby modules.\r\n
+    It is a lower-band Ultra High Frequency system that enables voice and data links
+    over short ranges,\r\n especially when devices have line-of-sight or minimal
+    obstruction.\r"
   price: 'Size: 2x1
 
     Cost: 200'
-  link: https://drive.google.com/drive/folders/1h-oXdaOSfSNc2WiCUsAPTSQUZnE8YujW?usp=drive_link
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1oRDPABV-D8wA-w2Ib8YvU-BbLjh18nyn?usp=drive_link
+  image: {fileID: 21300000, guid: 0a729c0d8084a824cb4d2fbcaab51bab, type: 3}
   prefab: {fileID: 7240189091602596899, guid: 9f1b82c0e051bb740889a6a2c485005b, type: 3}
   cameraDistance: 2
   overrideScale: {x: 400, y: 400, z: 400}

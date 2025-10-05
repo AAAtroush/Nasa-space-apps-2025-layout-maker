@@ -18,12 +18,15 @@ MonoBehaviour:
     \u22123\r\nData Loss: \u221210%"
   gameex: High-bandwidth antenna, necessary for long missions. Prevents major data
     corruption but eats more resources.
-  irlex: almfgkamlgfml
+  irlex: The Ku-band antennas on ISS are generally weaker and used for smaller travel
+    times to transmit large volumes of data to Earth at high speed. They are steerable
+    (gimbaled) to aim toward relay satellites (e.g. TDRS). antenna beam and degrade
+    performance, their bandwidth is much smaller however.
   price: 'Size: 3x1
 
     Cost: 400'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1e-ggmTW6c4VA7X0P9pgYBZxh6yXgSoai?usp=drive_link
+  image: {fileID: 21300000, guid: d145cee5fa5688349b27b30b5d809ccc, type: 3}
   prefab: {fileID: 1461051613457735750, guid: 982a86191f9359c4a855822b22c39e95, type: 3}
   cameraDistance: 2
   overrideScale: {x: 300, y: 300, z: 300}

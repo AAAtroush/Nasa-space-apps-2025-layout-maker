@@ -14,16 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemname: Freeze-Dried Food Packets
   irlname: ISS Freeze-Dried Food Packets
-  attributes: "Attributes:\r\nProtein: +80\r\nCarbs: +400\r\nFat: +100\r\nWaste:
-    +3\r\nCrewRiskMod: \u22121"
+  attributes: "Attributes:\nCalories: 1400\r\nProtein: +80\r\nCarbs: +400\r\nFat:
+    +100\r\nWaste: +3\r\nCrewRiskMod: \u22121"
   gameex: Basic rations. Provides balanced nutrition, generates waste. Essential
     for survival.
-  irlex: almfgkamlgfml
+  irlex: "Freeze-dried food is food from which almost all moisture has been removed
+    under vacuum at low temperature, causing ice to sublimate directly into vapor.
+    The aim is to reduce mass and volume while preserving nutrition and flavor as
+    much as possible. To consume, astronauts add water (hot or cold, depending on
+    the food) to rehydrate it.\r\nThis method is used on ISS because the food can
+    remain shelf-stable without refrigeration and is packaged in hermetic, moisture-
+    and oxygen-barrier pouches.\r"
   price: 'Size: 2x1
 
     Cost: 150'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1ZOhvFr-m8t43DLh6zaUjYUww53MqHNsN?usp=drive_link
+  image: {fileID: 21300000, guid: a928513daeee7084c9fac410bf830187, type: 3}
   prefab: {fileID: 4581634200310789065, guid: 9c371455498b6dd4b9eb5ca8980f9411, type: 3}
   cameraDistance: 2
   overrideScale: {x: 350, y: 350, z: 350}

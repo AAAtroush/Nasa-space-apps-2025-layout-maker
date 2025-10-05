@@ -12,16 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: powerBatteryBank
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Battery Bank
+  irlname: 'ISS Battery Bank '
+  attributes: "Attributes:\r\nPower: +100\r\nCooling: \u221220\r\nWaste: \u22121\r\nStorage:
+    +2\r\nNavRiskMod: \u22122\r\nPower Loss: \u221215%"
+  gameex: Energy storage. Prevents Power Loss events.
+  irlex: "The \u201Cbattery bank\u201D on the ISS is a set of batteries used to store
+    solar power generated when the station is in sunlight, for use during eclipse
+    periods when the station is in Earth\u2019s shadow. The older batteries were
+    nickel-hydrogen (Ni-H\u2082) type; NASA has been replacing them with lithium-ion
+    batteries which offer higher energy density, lighter weight, and longer lifespan.
+    \r\nThere are 8 power channels on the station; each channel has multiple battery
+    units (total ~48 batteries in older configurations). The charging happens when
+    in sunlight (~45 min per orbit), then during eclipse the batteries supply power."
   price: 'Size: 6x3
 
     Cost: 800'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1CoNIV-XxOaTl-ZNhg8MY1GahXNg9954-?usp=drive_link
+  image: {fileID: 21300000, guid: 51364e3299349064695e6cfdec0701e6, type: 3}
   prefab: {fileID: 3066524965882374176, guid: 1845825574729a9419282ff02ac2d3f9, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

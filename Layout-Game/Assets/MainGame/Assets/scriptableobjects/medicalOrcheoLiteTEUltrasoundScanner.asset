@@ -12,16 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: medicalOrcheoLiteTEUltrasoundScanner
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Orcheo Lite TE Ultrasound Scanner
+  irlname: Portable Ultrasound
+  attributes: "Attributes:\r\nPower: \u221215\r\nCooling: \u22126\r\nTreatments:
+    +4\r\nResearch: +1\r\nIllness: \u221210%"
+  gameex: 'Diagnostic tool. Reduces Illness severity.
+
+'
+  irlex: "The ultrasound system on ISS is the primary medical imaging method available
+    aboard. It\u2019s used for cardiac, vascular, abdominal, musculoskeletal, thoracic
+    examinations, among others. \r\nThere is a fixed ultrasound suite in the Human
+    Research Facility which includes high-definition capabilities, and has real-time
+    video downlink to allow remote guidance by Earth-based medical experts. \r\nPortable
+    ultrasound units (e.g. Butterfly IQ, Orcheo Lite TE) are also tested to enable
+    more flexible use, with lighter weight and reduced power consumption, while still
+    allowing remote support.\r"
   price: 'Size: 2x2
 
-    Cost: 600'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+    Price: 600'
+  link: https://drive.google.com/drive/folders/1bdElwbD6730Pk28_YFy9q6U7eZdCCV1I?usp=drive_link
+  image: {fileID: 21300000, guid: a255ce4cc541efc4b9d2720527d169c6, type: 3}
   prefab: {fileID: 1108427949801142331, guid: 14c16075d772d1644a7fffb7cb3e27d1, type: 3}
   cameraDistance: 2
   overrideScale: {x: 500, y: 500, z: 500}

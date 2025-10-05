@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: medicalMedicalSoftGoods
   m_EditorClassIdentifier: 
   itemname: Medical Soft Goods
-  irlname: ISS Medical Pack
-  attributes: "Attributes:\r\nWaste: \u22121\r\nTreatments: +3"
-  gameex: Provides general medical supplies. Reduces illness event chances.
-  irlex: almfgkamlgfml
+  irlname: Medical Pack
+  attributes: "Attributes:\r\nWaste: \u22121\r\nTreatments: +3\r\nIllness: \u221215%"
+  gameex: Basic medical kit. Prevents Illness events.
+  irlex: 'The ISS portable medical kit (Ambulatory Medical Kit) contains the basics:
+    first aid supplies, wound care tools, essential medications, and simple diagnostic
+    aids. It is used for minor emergencies or to provide immediate care before remote
+    consultation or evacuation.'
   price: 'Size: 2x1
 
     Cost: 200'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1H8HDHJTsqAVzp2WPPtmIZHGiPVdhpaPA?usp=drive_link
+  image: {fileID: 21300000, guid: 8f0c329a0150f534f991d3a67e8bf864, type: 3}
   prefab: {fileID: 2773677100440062794, guid: 016c22d6a1e441140872b0213021aa8b, type: 3}
   cameraDistance: 2
   overrideScale: {x: 600, y: 600, z: 600}

@@ -12,16 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2d1c8f5b76bb74d87b3727182f4df9, type: 3}
   m_Name: waterairAdvancedPurifier
   m_EditorClassIdentifier: 
-  itemname: 
-  irlname: 
-  attributes: "fakldfk:fkla\nfalkdfl:fdsa\nflafla\nflalf\nafmalf\n lamfla"
-  gameex: apkdfplkldpafkasffakokga
-  irlex: almfgkamlgfml
+  itemname: Advanced Purifier
+  irlname: ISS Water Recovery
+  attributes: "Attributes:\r\nPower: \u221225\r\nCooling: \u221215\r\nWater: +4\r\nWaste:
+    +4\r\nCrewRiskMod: \u22121\r\nSystemRiskMod: \u22122\r\nResearch: +2\r\nContamination:
+    \u221220%"
+  gameex: Purifies wastewater. Prevents Contamination and water shortage.
+  irlex: The ISS Water Recovery System (WRS) comprises the Urine Processor Assembly
+    (UPA), Water Processor Assembly (WPA), and the Brine Processor Assembly (BPA).
+    These units recover water from urine, humidity condensate, and hygiene water.
+    After upgrades (including BPA), total water recovery efficiency reached about
+    98%, greatly reducing resupply needs. Processes include vacuum distillation,
+    adsorption, ion-exchange, catalytic reactors, and multi-stage filtration. Reclaimed
+    water is used for drinking, hygiene, and as feedstock for electrolysis (OGA).
   price: 'Size: 6x2
 
     Cost: 700'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1wSNeGhZG2TjTczLTyky29p0PLg8VXPPq?usp=drive_link
+  image: {fileID: 21300000, guid: e2251767ffb89024fa51a3e070f51b55, type: 3}
   prefab: {fileID: 6582625533389952982, guid: 184c6a16b36fce5479aa2fef79a5c914, type: 3}
   cameraDistance: 2
   overrideScale: {x: 200, y: 200, z: 200}

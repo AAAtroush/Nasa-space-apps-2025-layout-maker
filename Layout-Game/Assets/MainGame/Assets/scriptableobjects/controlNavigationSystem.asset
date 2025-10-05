@@ -17,12 +17,15 @@ MonoBehaviour:
   attributes: "Power: \u221250\r\nCooling: \u221240\r\nNavRiskMod: \u22123\r\nSystemRiskMod:
     \u22123\r\nResearch: +1\r\nCollision: \u221230%"
   gameex: Navigation stability system, critical to avoid space collisions. Very resource-demanding.
-  irlex: almfgkamlgfml
+  irlex: The ISS GPS/Star Tracker device will track the location of the International
+    Space Station (ISS) in real time and continuously point to it as it orbits the
+    Earth. It is battery powered by lithium-ion cells (recovered from an old laptop)
+    so that it can be taken out into the garden on a clear night.
   price: 'Size: 6x6
 
     Cost: 1000'
-  link: www.discord.com
-  image: {fileID: 21300000, guid: 35604eb64a7a7d446a245d412cc10d75, type: 3}
+  link: https://drive.google.com/drive/folders/1fNnXHQxVhdByGB-JHlUUJwAQ4-VoYV5H?usp=drive_link
+  image: {fileID: 21300000, guid: 8fadcfd87fe71ed4c86a06f4797c82d4, type: 3}
   prefab: {fileID: 173114984407629818, guid: 4013ee6e447b8dc49959ea31f1335d63, type: 3}
   cameraDistance: 2
   overrideScale: {x: 100, y: 100, z: 100}
