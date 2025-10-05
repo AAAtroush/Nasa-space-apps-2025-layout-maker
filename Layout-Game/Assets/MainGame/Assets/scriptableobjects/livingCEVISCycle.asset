@@ -25,7 +25,7 @@ MonoBehaviour:
     such as pedaling speed, workload, elapsed time, and heart rate to guide exercise
     sessions."
   price: "Size: 2x1\r\nCost: 500\r"
-  link: https://drive.google.com/drive/folders/1GXz-Clhuma32N0Msme8KQrGE9Gf3Lwrb?usp=drive_link
+  link: https://docs.google.com/document/d/10uMuc3wC0tGRGVUNGmX9Z8guXsbtbqnM/edit?usp=sharing&ouid=106271161629702918720&rtpof=true&sd=true
   image: {fileID: 21300000, guid: 49ff9b1dbd10dec45a68faa2eabe9255, type: 3}
   prefab: {fileID: 7888890429717027927, guid: 9e2b512760a71214f8ef48e566553aea, type: 3}
   cameraDistance: 2

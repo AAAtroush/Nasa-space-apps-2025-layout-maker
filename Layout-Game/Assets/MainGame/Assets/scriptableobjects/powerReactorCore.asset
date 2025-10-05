@@ -28,7 +28,7 @@ MonoBehaviour:
   price: 'Size: 6x6
 
     Cost: 2000'
-  link: https://drive.google.com/drive/folders/10z98PBMklEZNlmTPGAw5xpQjVkrtcgPp?usp=drive_link
+  link: https://docs.google.com/document/d/1v9_iwSjp_QaqblKpsRgzNUAib6BXPY-8/edit?usp=sharing&ouid=106271161629702918720&rtpof=true&sd=true
   image: {fileID: 21300000, guid: 704252ef0796ad5488307ffc0858bb67, type: 3}
   prefab: {fileID: 853961721269090160, guid: 8b091ff589cb9254a9ed0217717a19b8, type: 3}
   cameraDistance: 2

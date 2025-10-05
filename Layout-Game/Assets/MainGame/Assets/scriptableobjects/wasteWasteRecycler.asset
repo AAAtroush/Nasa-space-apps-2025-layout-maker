@@ -25,7 +25,7 @@ MonoBehaviour:
   price: 'Size: 8x4
 
     Cost: 1000'
-  link: https://drive.google.com/drive/folders/13KA5RbM5rsjM0gFAUUE7-zUFIwJ4AYzP?usp=drive_link
+  link: https://docs.google.com/document/d/1wDbCOu1K73DKO-8153IEmCUEOfIjvTCO/edit?usp=sharing&ouid=106271161629702918720&rtpof=true&sd=true
   image: {fileID: 21300000, guid: e51ae6bdf4ad3de4486f9c1f012b04c6, type: 3}
   prefab: {fileID: 3850312513986269576, guid: a6f3f8f5660d67643a7285b66830f3f4, type: 3}
   cameraDistance: 2

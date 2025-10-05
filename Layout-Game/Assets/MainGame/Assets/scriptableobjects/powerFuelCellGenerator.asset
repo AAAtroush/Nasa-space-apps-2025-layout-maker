@@ -26,13 +26,13 @@ MonoBehaviour:
     the same way. There may be studies or proposals, but no confirmed deployed system
     as of the information I found.
 
-    
+
 
 '
   price: 'Size: 6x2
 
     Cost: 900'
-  link: https://drive.google.com/drive/folders/1UKxUk_r3h0MsadWSMtt9fbWyVMFXW6EO?usp=drive_link
+  link: https://docs.google.com/document/d/1LafyTf-d4aqZ3YhB3AhRqJdFf0pnUSIJ/edit?usp=sharing&ouid=106271161629702918720&rtpof=true&sd=true
   image: {fileID: 21300000, guid: 482943630d604d74b945139fcf5194f7, type: 3}
   prefab: {fileID: 6119553864337952358, guid: 2cee1d42ae1b9654889cdab6fa327b73, type: 3}
   cameraDistance: 2
