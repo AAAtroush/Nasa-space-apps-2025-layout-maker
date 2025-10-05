@@ -4136,6 +4136,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 789956261}
+        m_TargetAssemblyTypeName: HoverManager, Assembly-CSharp
+        m_MethodName: ShowOnlyIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &264527756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10018,6 +10030,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509416729}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &515994850
 GameObject:
   m_ObjectHideFlags: 0
@@ -10352,6 +10365,8 @@ MonoBehaviour:
   priceText: {fileID: 2090766066}
   itemImage: {fileID: 0}
   linkButton: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &560618195
 GameObject:
   m_ObjectHideFlags: 0
@@ -10391,6 +10406,7 @@ RectTransform:
   m_AnchoredPosition: {x: 599.5, y: 386}
   m_SizeDelta: {x: 457, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
 --- !u!1 &567291376
 GameObject:
   m_ObjectHideFlags: 0
@@ -10451,6 +10467,8 @@ MonoBehaviour:
   priceText: {fileID: 1475184905}
   itemImage: {fileID: 0}
   linkButton: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &569711274
 GameObject:
   m_ObjectHideFlags: 0
@@ -11882,6 +11900,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670008290}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &674608074
 GameObject:
   m_ObjectHideFlags: 0
@@ -12154,6 +12173,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676343666}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &676391834
 GameObject:
   m_ObjectHideFlags: 0
@@ -13396,6 +13417,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 789956261}
+        m_TargetAssemblyTypeName: HoverManager, Assembly-CSharp
+        m_MethodName: ShowOnlyIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &752088341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13727,6 +13760,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771327112}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &777627496
 GameObject:
   m_ObjectHideFlags: 0
@@ -14137,6 +14171,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788578348}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &789956260
 GameObject:
   m_ObjectHideFlags: 0
@@ -14166,6 +14202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d3ad54cb774c004bb297d9d5bf1493d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   allObjects:
   - {fileID: 334049593}
   - {fileID: 590692265}
@@ -14209,6 +14246,10 @@ MonoBehaviour:
   - {fileID: 1578798906}
   - {fileID: 550785330}
   elementMohmFa45: {fileID: 631973877}
+=======
+  allObjects: []
+  currentActiveIndex: -1
+>>>>>>> Stashed changes
 --- !u!4 &789956262
 Transform:
   m_ObjectHideFlags: 0
@@ -15929,6 +15970,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864946202}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!114 &864946207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16496,6 +16538,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898519703}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &902899376
 GameObject:
   m_ObjectHideFlags: 0
@@ -21340,6 +21384,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 789956261}
+        m_TargetAssemblyTypeName: HoverManager, Assembly-CSharp
+        m_MethodName: ShowOnlyIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1136897371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22110,6 +22166,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164833468}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1167791738
 GameObject:
   m_ObjectHideFlags: 0
@@ -22660,6 +22717,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192485929}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1200212028
 GameObject:
   m_ObjectHideFlags: 0
@@ -22735,6 +22794,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200212028}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1200999161
 GameObject:
   m_ObjectHideFlags: 0
@@ -22871,6 +22931,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200999161}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1203322160
 GameObject:
   m_ObjectHideFlags: 0
@@ -27154,6 +27216,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428976157}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1434338926
 GameObject:
   m_ObjectHideFlags: 0
@@ -27291,6 +27354,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434338926}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1434531033
 GameObject:
   m_ObjectHideFlags: 0
@@ -28299,6 +28364,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447033445}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1456677037
 GameObject:
   m_ObjectHideFlags: 0
@@ -28712,6 +28778,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461094912}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1467303120
 GameObject:
   m_ObjectHideFlags: 0
@@ -28850,6 +28918,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467303120}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1467617310
 GameObject:
   m_ObjectHideFlags: 0
@@ -29261,6 +29330,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477505961}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1478901796
 GameObject:
   m_ObjectHideFlags: 0
@@ -29293,6 +29364,7 @@ Transform:
   - {fileID: 1497970305}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1482388257
 GameObject:
   m_ObjectHideFlags: 0
@@ -29429,6 +29501,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482388257}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1485869350
 GameObject:
   m_ObjectHideFlags: 0
@@ -29565,6 +29639,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485869350}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1486063338
 GameObject:
   m_ObjectHideFlags: 0
@@ -29761,6 +29836,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489858943}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1490345443
 GameObject:
   m_ObjectHideFlags: 0
@@ -37815,6 +37892,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893752237}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1902412729
 GameObject:
   m_ObjectHideFlags: 0
@@ -38364,6 +38442,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915138652}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1919601514
 GameObject:
   m_ObjectHideFlags: 0
@@ -38464,6 +38544,7 @@ RectTransform:
   m_AnchoredPosition: {x: 6.1049805, y: -501.12}
   m_SizeDelta: {x: 347.29004, y: 41.80002}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
 --- !u!1 &1921115337
 GameObject:
   m_ObjectHideFlags: 0
@@ -38721,6 +38802,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1925222745}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1926660234
 GameObject:
   m_ObjectHideFlags: 0
@@ -40392,6 +40475,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964114735}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!1 &1964558873
 GameObject:
   m_ObjectHideFlags: 0
@@ -40664,6 +40748,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977520448}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1983790225
 GameObject:
   m_ObjectHideFlags: 0
@@ -40816,6 +40902,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1998199192
 GameObject:
   m_ObjectHideFlags: 0
@@ -40952,6 +41039,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998199192}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1 &2003477688
 GameObject:
   m_ObjectHideFlags: 0
@@ -41761,6 +41850,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 789956261}
+        m_TargetAssemblyTypeName: HoverManager, Assembly-CSharp
+        m_MethodName: ShowOnlyIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -44484,6 +44585,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133417209}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
 --- !u!114 &2133417214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44503,6 +44605,8 @@ MonoBehaviour:
   buttonIndex: 16
   hoverManager: {fileID: 789956261}
   itemData: {fileID: 11400000, guid: 1de8fecd2462f9e41bf755871ee2db52, type: 2}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &2133806618
 GameObject:
   m_ObjectHideFlags: 0
@@ -44801,4 +44905,7 @@ SceneRoots:
   - {fileID: 580522968}
   - {fileID: 1985376529}
   - {fileID: 789956262}
+<<<<<<< Updated upstream
   - {fileID: 429249304}
+=======
+>>>>>>> Stashed changes
