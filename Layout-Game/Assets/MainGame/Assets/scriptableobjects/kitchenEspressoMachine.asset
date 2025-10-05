@@ -26,7 +26,7 @@ MonoBehaviour:
   price: 'Size: 2x1
 
     Cost: 300'
-  link: www.discord.com
+  link: https://docs.google.com/document/d/1AFlM_znshHRBVm4CTAAxzLu5ddjut0WN/edit?usp=sharing&ouid=106271161629702918720&rtpof=true&sd=true
   image: {fileID: 21300000, guid: 9a4d5b59fae95ea4b9c4ba9e2fe7f778, type: 3}
   prefab: {fileID: 2596389917910658916, guid: b4f5657581f6d1f4ab22b99b88eb8252, type: 3}
   cameraDistance: 2
